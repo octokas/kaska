@@ -1,0 +1,37 @@
+/* identity menu container */
+div.identity-menu {
+ width: 100%;
+ max-width: 12em;
+ position: fixed;
+ bottom: 1em;
+ right: 2em;
+}
+
+/* identity or login/logout menu */
+.identity-menu ul {
+text-align: right;
+list-style-type: none;
+}
+
+/* login button */
+body > div:nth-child(4) {
+
+}
+
+/* logged in as announcement */
+li.netlify-identity-item:nth-child(1) {
+text-transform: lowercase;
+font-size: 0.8em;
+text-align: right;
+margin-bottom: 1em;
+}
+
+/* logout button */
+li.netlify-identity-item:nth-child(2) {
+color: rgb(58, 105, 199);
+background-color: rgb(232, 245, 254);
+border-left-color: rgb(72, 99, 198);
+width: 5em;
+text-align: center;
+float: right;
+}

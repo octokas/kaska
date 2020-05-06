@@ -224,3 +224,11 @@ a[href].direct-link:focus:visited,
 :hover > a[href].direct-link:visited {
   color: #aaa;
 }
+
+/* WIP Notice */
+
+.separator {
+  width: 100%;
+  max-width: 38em;
+  float: left;
+}

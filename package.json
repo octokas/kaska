@@ -1,5 +1,5 @@
 {
-  "name": "eleventy-netlify-boilerplate",
+  "name": "kaska",
   "version": "1.0.3",
   "description": "A boilerplate for building a fast static website with the Eleventy static site generator, for deployment to Netlify.",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/danurbanowicz/eleventy-netlify-boilerplate"
+    "url": "https://github.com/batmanwgd/kaska"
   },
   "author": {
     "name": "Kaska Miskolczi",

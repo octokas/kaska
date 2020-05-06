@@ -24,6 +24,8 @@
   "devDependencies": {
     "@11ty/eleventy": "^0.10.0",
     "@11ty/eleventy-navigation": "^0.1.5",
+    "he-date": "^1.2.2",
+    "hebcal": "^2.3.2",
     "luxon": "^1.22.2",
     "markdown-it": "^10.0.0",
     "markdown-it-anchor": "^5.2.7"

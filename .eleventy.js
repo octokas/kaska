@@ -90,6 +90,7 @@ module.exports = function(eleventyConfig) {
   );
 
   return {
+    passthroughFileCopy: true,
     templateFormats: ["md", "njk", "html", "liquid"],
 
     // If your site lives in a different subdirectory, change this.
@@ -98,7 +99,7 @@ module.exports = function(eleventyConfig) {
     // This is only used for URLs (it does not affect your file structure)
     pathPrefix: "/",
 
-    markdownTemplateEngine: "liquid",
+    markdownTemplateEngine: ["liquid", "njk"],
     htmlTemplateEngine: "njk",
     dataTemplateEngine: "njk",
     dir: {

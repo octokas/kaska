@@ -1,9 +1,15 @@
 {
-  "title": "Eleventy Netlify Boilerplate",
-  "url": "https://eleventy-netlify-boilerplate.netlify.com",
+  "title": "Kaska",
+  "url": "https://Kaska.netlify.app/",
+  "description": "Personal Site",
+  "feed": {
+    "subtitle": "Personal Site",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://kaska.netlify.app/"
+  },
   "author": {
-    "name": "Dan Urbanowicz",
-    "email": "dan.urbanowicz@gmail.com",
-    "github": "https://github.com/danurbanowicz"
+    "name": "Kaska Miskolczi",
+    "email": "batmanwgd@gmail.com"
   }
 }

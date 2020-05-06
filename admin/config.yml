@@ -3,7 +3,7 @@ backend:
   branch: master # Branch to update (optional; defaults to master)
 
 # Uncomment below to enable drafts
-# publish_mode: editorial_workflow
+publish_mode: editorial_workflow
 
 media_folder: "static/img" # Media files will be stored in the repo under images/uploads
 
@@ -19,7 +19,7 @@ collections:
     media_folder: ""
     public_folder: ""
     create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     summary: '{{title}} -- {{year}}/{{month}}/{{day}}'
     fields: # The fields for each document, usually in front matter
       - { label: "Title", name: "title", widget: "string" }
@@ -31,8 +31,8 @@ collections:
   - name: "pages"
     label: "Page"
     folder: "pages"
-    create: false # Change to true to allow editors to create new pages
-    slug: "{{slug}}"
+    create: true # Change to true to allow editors to create new pages
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     summary: '{{title}} -- {{year}}/{{month}}/{{day}}'
     fields:
       - { label: "Title", name: "title", widget: "string" }

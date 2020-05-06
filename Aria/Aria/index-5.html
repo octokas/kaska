@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Aria Multipurpose Onepage HTML Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aria HTML Template">
+    <meta name="keywords" content="Aria HTML Template, Aria Onepage Template">
+    <link rel="icon" href="assets/images/favicon.png">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href='https://fonts.googleapis.com/css?family=Poppins:400,600,700|Work+Sans:600,500,400,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="assets/css/animate.css"> <!-- Resource style -->
+    <link rel="stylesheet" href="assets/css/ionicons.min.css"> <!-- Resource style -->
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" media="all" />
+  </head>
+  <body>
+    <div class="wrapper">
+    <div class="nav-trigger" role="button" title="sweet hamburger">
+      <div class="hamburger">
+        <div class="icon"></div>
+      </div>
+    </div>
+
+      <div id="ar-about" class="cs-about">
+        <div class="about-intro">
+          <div class="contact-section">
+       <div class="col-md-12">
+         <h1>Contact us.</h1>
+         <p>
+           We know you've come here to talk to us. Just ask us and we'll reply <br class="hidden-xs"> with in 24 hours unless it is weekend.
+         </p>
+         <div class="contact-form">
+           <form id="contact-form" method="post" action="assets/php/contact.php" role="form">
+             <div class="messages"></div>
+             <div class="controls">
+             <div class="row">
+                 <div class="col-md-6">
+                     <div class="form-group">
+                         <label for="form_name">Firstname *</label>
+                         <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                         <div class="help-block with-errors"></div>
+                     </div>
+                 </div>
+                 <div class="col-md-6">
+                     <div class="form-group">
+                         <label for="form_lastname">Lastname *</label>
+                         <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                         <div class="help-block with-errors"></div>
+                     </div>
+                 </div>
+             </div>
+             <div class="row">
+                 <div class="col-md-6">
+                     <div class="form-group">
+                         <label for="form_email">Email *</label>
+                         <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                         <div class="help-block with-errors"></div>
+                     </div>
+                 </div>
+                 <div class="col-md-6">
+                     <div class="form-group">
+                         <label for="form_phone">Phone</label>
+                         <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+                         <div class="help-block with-errors"></div>
+                     </div>
+                 </div>
+             </div>
+             <div class="row">
+                 <div class="col-md-12">
+                     <div class="form-group">
+                         <label for="form_message">Message *</label>
+                         <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                         <div class="help-block with-errors"></div>
+                     </div>
+                 </div>
+                 <div class="col-md-12">
+                     <input type="submit" class="btn btn-success btn-send" value="Send message">
+                 </div>
+               </div>
+             </div>
+           </form>
+         </div>
+       </div>
+     </div>
+
+        </div>
+      </div>
+
+      <!-- Homepage Main Section-->
+      <div class="main cs-main">
+        <section class="split-home">
+          <section class="left-section wow fadeIn" data-wow-delay="0.2s">
+
+          </section>
+          <section class="right-section">
+            <div class="intro">
+              <div class="intro-text text-center">
+                <h1 class="wow fadeInDown" data-wow-delay=".1s">Aria is coming Soon</h1>
+                <p class="wow fadeInDown" data-wow-delay=".2s">Everyone does something good, only a few make remarkable <br class="hidden-xs"> things. So, I built this portfolio
+                to showcase my talent and <br class="hidden-xs">  that remarkable beauty or kind of work to you.</p>
+                <ul id="countdown" class="wow fadeIn" data-wow-delay=".2s">
+                  <li><span class="days">00</span><p class="days_text">Days</p></li>
+                  <li class="seperator">:</li>
+                  <li><span class="hours">00</span><p class="hours_text">Hours</p></li>
+                  <li class="seperator">:</li>
+                  <li><span class="minutes">00</span><p class="minutes_text">Min</p></li>
+                  <li class="seperator">:</li>
+                  <li><span class="seconds">00</span><p class="seconds_text">Sec</p></li>
+                </ul>
+
+                <!-- Subscribe Form -->
+                <div class="cta-sub text-center no-color">
+                  <h2 class="wow fadeInUp" data-wow-delay="0.2s">Subscribe to get updates </h2>
+                  <div class="form wow fadeInUp" data-wow-delay="0.3s">
+                    <form class="subscribe-form wow zoomIn" action="assets/php/subscribe.php" method="post" accept-charset="UTF-8" enctype="application/x-www-form-urlencoded" autocomplete="off" novalidate>
+                      <input class="mail" type="email" name="email" placeholder="Email Address" autocomplete="off"><input class="submit-button" type="submit" value="Subscribe">
+                    </form>
+                    <div class="success-message"></div>
+                    <div class="error-message"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="footer text-center">
+           <span class="footer-credits">© Aria Corporation 2016</span>
+          </div>
+         </section>
+       </section>
+      </div><!-- Main-->
+    </div><!-- Wrapper -->
+
+    <!-- Jquery and Js Plugins -->
+    <script type="text/javascript" src="assets/js/jquery-2.1.1.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/plugins.js"></script>
+    <script type="text/javascript" src="assets/js/menu.js"></script>
+    <script type="text/javascript" src="assets/js/contact.js"></script>
+    <script type="text/javascript" src="assets/js/validator.js"></script>
+    <script type="text/javascript" src="assets/js/custom.js"></script>
+  </body>
+</html>

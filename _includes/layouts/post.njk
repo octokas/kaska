@@ -1,31 +1,15 @@
 ---
 layout: layouts/base.njk
 section: post
+date: 2020-05-12T00:00:00.000Z
+templateClass: tmpl-post
 ---
-
 <article>
   <h1>{{ title }}</h1>
-  <p>
-    <small>
-      <time datetime="{{ date | machineDate }}">{{ date | readableDate }}</time> by {{ metadata.author.name }}
-    </small>
-  </p>
-
-  {{ layoutContent | safe }}
-
-  {% if tags %}
-    <p>
-    {% for tag in tags %}
-      {%- if tag != "post" -%}
-        {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-        <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
-      {%- endif -%}
-    {% endfor %}
-    </p>
-  {% endif %}
-
+{{ layoutContent | safe }}
 </article>
-
 <nav>
-  <a href="{{ '/blog/' | url }}">← Blog index</a>
+<ul>
+  <li><a href="{{ '/blog/' | url }}">← Blog index</a></li>
+  <li><a href="{{ '/' | url }}">← Home</a></li>
 </nav>

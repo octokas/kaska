@@ -1,9 +1,9 @@
 {
-  "title": "Kaska",
-  "url": "https://Kaska.netlify.app/",
-  "description": "Personal Site",
+  "title": "I am Kaska",
+  "url": "https://kaska.netlify.app/",
+  "description": "My Template Repo for Netlify & Eleventy without Compromising",
   "feed": {
-    "subtitle": "Personal Site",
+    "subtitle": "Simple without compromise",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "id": "https://kaska.netlify.app/"

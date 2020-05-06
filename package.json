@@ -24,11 +24,18 @@
   "devDependencies": {
     "@11ty/eleventy": "^0.10.0",
     "@11ty/eleventy-navigation": "^0.1.5",
+    "@11ty/eleventy-plugin-rss": "^1.0.7",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
+    "browsersync": "0.0.1-security",
+    "buffer": "^5.6.0",
+    "fs": "0.0.1-security",
     "he-date": "^1.2.2",
     "hebcal": "^2.3.2",
-    "luxon": "^1.22.2",
+    "luxon": "^1.24.1",
     "markdown-it": "^10.0.0",
-    "markdown-it-anchor": "^5.2.7"
+    "markdown-it-anchor": "^5.2.7",
+    "netlify-cli": "^2.49.0",
+    "node-sass": "^4.14.1"
   },
   "dependencies": {
     "clean-css": "^4.2.1",

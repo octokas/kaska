@@ -1,0 +1,43 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+    "workbench.colorTheme": "Monokai Pro",
+    "workbench.iconTheme": "Monokai Pro Icons",
+    "workbench.settings.editor": "json",
+    "terminal.integrated.cursorStyle": "line",
+    "sync.gist": "38f6aa7c445be26a1bf6b021cbc01b33",
+    "workbench.settings.useSplitJSON": true,
+    "liquid.format": true,
+    "liveServer.settings.donotVerifyTags": true,
+    "html.autoClosingTags": false,
+    "editor.minimap.enabled": false,
+    "editor.maxTokenizationLineLength": 999999,
+    "git.enableSmartCommit": true,
+    "editor.tabSize": 1,
+    "editor.useTabStops": false,
+    "editor.wordWrap": "off",
+    "files.associations": {
+        "*.svg": "html",
+        "*.njk": "njk",
+        "*.html": "njk"
+      },
+      "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true
+      },    
+      "liveSassCompile.settings.formats": [
+        {
+          "format": "expanded",
+          "extensionName": ".css",
+          "savePath": "/sass/css"
+        }
+      ],
+	}
+}

@@ -1,23 +1,32 @@
 <!doctype html>
-<html {% if section %} data-current="{{ section }}"{% endif %} lang="en">
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="Description" content="{{ renderData.description or description or metadata.description }}">
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | url }}">
+<link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
+<title>{{ title or renderData.title or metadata.title }}</title>
+<script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+  <body>
+    <header>
+      <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
 
-	{% include "components/head.njk" %}
+      {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
+      <ul class="nav">
+      {%- for entry in collections.all | eleventyNavigation %}
+        <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
+      {%- endfor %}
+      </ul>
+    </header>
 
-	<body>
+    <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
+      {{ layoutContent | safe }}
+    </main>
 
-		<header>
-			<em>
-				<a href="{{ '/' | url }}">{{ metadata.title }}</a>
-			</em>
-			{% include "components/nav.njk" %}
-		</header>
+    <footer></footer>
 
-		<main>
-			{{ layoutContent | safe }}
-		</main>
-
-		{% include "components/footer.njk" %}
-
-	</body>
-
+    <!-- Current page: {{ page.url | url }} -->
+  </body>
 </html>

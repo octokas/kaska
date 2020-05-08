@@ -298,6 +298,29 @@ div.left img {
   float: left;
 }
 
+.wrap  {
+  content: 'K';
+  font-size: 5px;
+  color: transparent;
+  /* background: url("data:image/svg+xml;utf8,<svg viewBox='0 0 12 12' xmlns='http://www.w3.org/2000/svg'><text x='0.2' y='11.7' >KDM</text></svg>"); */
+  background: url("data:image/svg+xml;utf8,<svg viewBox='0 0 48 12' xmlns='http://www.w3.org/2000/svg'><text x='0.2' y='11.7' >KDM</text></svg>");
+  height: 250px;
+  background-repeat: no-repeat;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  width: 100%;
+  /* max-width: 900px; */
+  display: block;
+}
+
+.wrap p {
+  max-width: 100%;
+}
+
+p #text {
+  font-size: 7px !important;
+}
+
 .fancy text, .fancy svg {
   fill: #903;
 }

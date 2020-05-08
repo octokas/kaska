@@ -1,4 +1,5 @@
 import htm from "https://unpkg.com/htm?module";
+CMS.registerPreviewStyle("/assets/css/admin.css");
 
 const html = htm.bind(h);
 

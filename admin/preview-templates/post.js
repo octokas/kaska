@@ -1,5 +1,6 @@
 import htm from "https://unpkg.com/htm?module";
 import format from "https://unpkg.com/date-fns@2.7.0/esm/format/index.js?module";
+CMS.registerPreviewStyle("/assets/css/admin.css");
 
 const html = htm.bind(h);
 

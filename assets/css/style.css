@@ -303,7 +303,8 @@ div.left img {
   font-size: 5px;
   color: rgba(0,0,0,0.1);
   /* background: url("data:image/svg+xml;utf8,<svg viewBox='0 0 12 12' xmlns='http://www.w3.org/2000/svg'><text x='0.2' y='11.7' >KDM</text></svg>"); */
-  background: url("data:image/svg+xml;utf8,<svg viewBox='0 0 48 12' xmlns='http://www.w3.org/2000/svg' version='1.1'><text x='0.2' y='11.7' >KDM</text></svg>");
+  display:block;
+  background: url("data:image/svg+xml;utf8,<svg viewBox='0 0 48 12' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' width='1000' height='650'><text x='0.2' y='2.4' >KDM</text></svg>");
   height: 250px;
   background-repeat: no-repeat;
   background-clip: text;
@@ -311,7 +312,6 @@ div.left img {
   -webkit-background-clip: text;
   width: 100%;
   /* max-width: 900px; */
-  display: block;
 }
 
 .wrap p {

@@ -232,3 +232,55 @@ a[href].direct-link:focus:visited,
   max-width: 38em;
   float: left;
 }
+
+/* half and half split page for resume */
+
+h2 {
+  margin-bottom: 7px;
+}
+
+div.contains {
+  /* width: 100%; */
+  margin: 0 auto;
+  padding: 0;
+	padding: 12px;
+  /* margin: 0 auto; */
+  /* display: block; */
+}
+
+div.left img {
+  float: left;
+  width: auto;
+  max-height: 36vh;
+  margin: 0 7px 0 0;
+}
+
+.right p {
+  max-width: 100%;
+  margin: 0;
+	text-align: justify;
+  overflow: visible;
+}
+.fancy {
+  content: 'K';
+  color: #903;
+  fill: #903;
+  font-family: 'Playfair', Georgia, serif;
+  font-size: 2em;
+  margin: 0;
+  padding: 0;
+  max-width: 100px;
+  line-height: 0px;
+  display: block;
+  float: left;
+}
+
+.fancy text, .fancy svg {
+  fill: #903;
+}
+
+/* p:first-child::first-letter {
+  color: #903; 
+  font-family: Georgia;
+  initial-letter: 4;
+} */

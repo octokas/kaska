@@ -301,13 +301,13 @@ div.left img {
 .wrap  {
   content: 'K';
   font-size: 5px;
-  color: transparent;
+  color: rgba(0,0,0,0.1);
   /* background: url("data:image/svg+xml;utf8,<svg viewBox='0 0 12 12' xmlns='http://www.w3.org/2000/svg'><text x='0.2' y='11.7' >KDM</text></svg>"); */
   background: url("data:image/svg+xml;utf8,<svg viewBox='0 0 48 12' xmlns='http://www.w3.org/2000/svg'><text x='0.2' y='11.7' >KDM</text></svg>");
   height: 250px;
   background-repeat: no-repeat;
   background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: rgba(0,0,0,0.1);
   -webkit-background-clip: text;
   width: 100%;
   /* max-width: 900px; */

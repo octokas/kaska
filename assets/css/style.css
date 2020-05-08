@@ -1,6 +1,6 @@
 :root {
-  --red: #C5004A;
-  --darkred: #7F0036;
+  --red: #9a0000;
+  --darkred: #800000;
   --lightgray: #e0e0e0;
   --gray: #C0C0C0;
   --darkgray: #333;
@@ -32,11 +32,11 @@ p,
   line-height: 1.45;
 }
 a[href] {
-  color: var(--blue);
+  color: var(--darkgray);
 }
-a[href]:visited {
-  color: var(--navy);
-}
+/* a[href]:visited {
+  color: var(--darkgray);
+} */
 main {
   padding: 1rem;
 }
@@ -131,17 +131,27 @@ pre {
   list-style: none;
   float: left;
   margin-left: 1em;
+  color: var(--darkgray);
 }
 .nav-item {
   display: inline-block;
   margin-right: 1em;
+  color: var(--darkgray);
 }
 .nav-item a[href]:not(:hover) {
   text-decoration: none;
 }
+.nav-item {
+  color: var(--darkgray);
+}
 .nav-item-active {
   font-weight: 700;
   text-decoration: underline;
+  color: maroon;
+}
+
+*:link, *|*:link, a {
+  color: var(--darkgray);
 }
 
 /* Posts list */
@@ -185,8 +195,8 @@ pre {
   display: inline-block;
   vertical-align: text-top;
   text-transform: uppercase;
-  font-size: 0.625em; /* 10px /16 */
-  padding: 2px 4px;
+  font-size: 0.7em; /* 10px /16 */
+  padding: 3px 5px;
   margin-left: 0.8em; /* 8px /10 */
   background-color: var(--red);
   color: var(--white);
@@ -217,6 +227,7 @@ a[href].tag:visited {
 a[href].direct-link,
 a[href].direct-link:visited {
   color: transparent;
+  color: var(--darkgray);
 }
 a[href].direct-link:focus,
 a[href].direct-link:focus:visited,
@@ -239,13 +250,18 @@ h2 {
   margin-bottom: 7px;
 }
 
+a[href].mag {
+  color: maroon;
+}
+
 div.contains {
-  /* width: 100%; */
-  margin: 0 auto;
-  padding: 0;
-	padding: 12px;
-  /* margin: 0 auto; */
-  /* display: block; */
+  width: 100%;
+  margin: 0 0 0 12px;
+  padding: 12px;
+  padding-top: 0px;
+  display: block;
+  max-width: 773px;
+  min-width: 473px;
 }
 
 div.left img {
@@ -258,9 +274,16 @@ div.left img {
 .right p {
   max-width: 100%;
   margin: 0;
-	text-align: justify;
+	/* text-align: justify; */
   overflow: visible;
 }
+
+@media screen and (min-width: 692px) {
+  .right p {
+    text-align: justify;
+  }
+}
+
 .fancy {
   content: 'K';
   color: #903;

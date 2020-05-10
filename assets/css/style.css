@@ -289,8 +289,8 @@ div.left img {
 
 .fancy {
   content: 'K';
-  color: #903;
-  fill: #903;
+  color: #99060B;
+  fill: #99060B;
   font-family: 'Playfair', Georgia, serif;
   font-size: 2em;
   margin: 0;
@@ -328,11 +328,11 @@ p #text {
 }
 
 .fancy text, .fancy svg {
-  fill: #903;
+  fill: #99060B;
 }
 
 /* p:first-child::first-letter {
-  color: #903; 
+  color: #99060B; 
   font-family: Georgia;
   initial-letter: 4;
 } */

@@ -33,8 +33,9 @@ Table of Content:
 /*----------------------------------------------------*/
 /*font Variables*/
 /*Color Variables*/
-@import url("https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700|Montserrat:100,200,300,400,400i,500,500i,600,700,800,900|Playfair+Display:400,400i,700,700i,900");
+@import url("https://fonts.googleapis.com/css?family=Playfair Display:300,400,500,600,700|Montserrat:100,200,300,400,400i,500,500i,600,700,800,900|Playfair+Display:400,400i,700,700i,900");
 @import url("https://fonts.googleapis.com/css?family=Kaushan+Script");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 .col-md-offset-right-1 {
   margin-right: 8.33333333%;
 }
@@ -63,7 +64,7 @@ body {
   line-height: 24px;
   font-size: 15px;
   overflow-x: hidden !important;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Playfair Display", serif;
   font-weight: 400;
   color: #232323;
   position: relative;
@@ -936,7 +937,7 @@ input:-webkit-autofill {
 }
 
 .about-text p {
-  font: 400 13px/20px "Hind", sans-serif;
+  font: 400 13px/20px "Playfair Display", sans-serif;
   color: #232323;
   text-align: justify;
   letter-spacing: -0.1px;
@@ -2129,12 +2130,12 @@ input:-webkit-autofill {
 }
 
 .blog-sidebar .widget.widget-about .text h3 {
-  font: 400 14px/25px "Hind", sans-serif;
+  font: 400 14px/25px "Playfair Display", sans-serif;
   color: #232323;
 }
 
 .blog-sidebar .widget.widget-about .text p {
-  font: 400 12px/18px "Hind", sans-serif;
+  font: 400 12px/18px "Playfair Display", sans-serif;
   color: #636363;
 }
 
@@ -2293,7 +2294,7 @@ input:-webkit-autofill {
 }
 
 .blog-sidebar .widget.widget-twitter .twitter-slider p {
-  font: 400 12px/18px "Hind", sans-serif;
+  font: 400 12px/18px "Playfair Display", sans-serif;
   color: #232323;
   padding-top: 6px;
 }
@@ -2368,7 +2369,7 @@ input:-webkit-autofill {
 }
 
 .single-blog .blog-text p {
-  font: 400 12px/18px "Hind", sans-serif;
+  font: 400 12px/18px "Playfair Display", sans-serif;
   color: #232323;
   text-align: justify;
 }
@@ -2562,7 +2563,7 @@ input:-webkit-autofill {
 }
 
 .author-bio .media-middle p {
-  font: 400 14px/22px "Hind", sans-serif;
+  font: 400 14px/22px "Playfair Display", sans-serif;
   color: #78797b;
   padding: 8px 0px;
 }
@@ -2701,12 +2702,12 @@ input:-webkit-autofill {
 }
 
 .form_inner .form-group .error.wobble-error {
-  font: 400 12px/22px "Hind", sans-serif;
+  font: 400 12px/22px "Playfair Display", sans-serif;
   color: #232323;
 }
 
 .form_inner .form-control {
-  font: 400 12px/22px "Hind", sans-serif;
+  font: 400 12px/22px "Playfair Display", sans-serif;
   color: #232323;
   box-shadow: none;
   border: 0px;
@@ -2791,7 +2792,7 @@ input:-webkit-autofill {
 
 #success .modal-dialog .modal-content .modal-header p, #error .modal-dialog .modal-content .modal-header p {
   padding-bottom: 50px;
-  font: 400 15px/24px "Hind", sans-serif;
+  font: 400 15px/24px "Playfair Display", sans-serif;
   color: #78797b;
   padding-top: 5px;
 }

@@ -405,11 +405,11 @@
                 max-width: 158px;
                 margin: -68px auto 0;
                 h3{
-                    font: 400 14px/25px $hind;
+                    font: 400 14px/25px $playfair;
                     color: $baseColor;
                 }
                 p{
-                    font:400 12px/18px $hind;
+                    font:400 12px/18px $playfair;
                     color: #636363;
                 }
             }
@@ -550,7 +550,7 @@
                     color: $baseColor;
                 }
                 p{
-                    font: 400 12px/18px $hind;
+                    font: 400 12px/18px $playfair;
                     color: $baseColor;
                     padding-top: 6px;
                 }
@@ -618,7 +618,7 @@
     .blog-text{
         margin-bottom: 46px;
         p{
-            font: 400 12px/18px $hind;
+            font: 400 12px/18px $playfair;
             color: $baseColor;
             text-align: justify;
             & + p{
@@ -794,7 +794,7 @@
             }
         }
         p{
-            font: 400 14px/22px $hind;
+            font: 400 14px/22px $playfair;
             color: $gray;
             padding: 8px 0px;
         }

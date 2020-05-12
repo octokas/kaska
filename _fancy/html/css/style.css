@@ -340,7 +340,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   transition: all 400ms linear 0s;
   text-transform: capitalize;
   text-shadow: none;
-  font: 600 16px "Montserrat", sans-serif;
+  font: 600 16px "Montserrat", serif;
   line-height: 90px;
   position: relative;
 }
@@ -383,7 +383,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 
 .main_menu_area .navbar-default .navbar-collapse .menu li.submenu .dropdown-menu li a {
   display: block;
-  font: 400 16px/40px "Montserrat", sans-serif;
+  font: 400 16px/40px "Montserrat", serif;
   padding: 0px 10px;
 }
 
@@ -529,7 +529,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 .offcanvas_menu_click .off_menu_inner .off_menu_relative ul li a {
   font-size: 20px;
   color: #fff;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", serif;
   text-transform: uppercase;
   transition: all 400ms linear 0s;
   display: inline-block;
@@ -801,7 +801,7 @@ input:-webkit-autofill {
   margin-top: 75px;
   font-size: 16px;
   font-weight: bold;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", serif;
   font-weight: bold;
   width: 115px;
   margin-left: -22px;
@@ -925,7 +925,7 @@ input:-webkit-autofill {
 }
 
 .about-title p {
-  font: 400 12px/25px "Playfair Display", serif;
+  font: 400 1.6em "Playfair Display", serif;
   color: #78797b;
   letter-spacing: 0.72px;
   font-style: italic;
@@ -937,7 +937,7 @@ input:-webkit-autofill {
 }
 
 .about-text p {
-  font: 400 13px/20px "Playfair Display", sans-serif;
+  font: 400 1.2em "Playfair Display", serif;
   color: #232323;
   text-align: justify;
   letter-spacing: -0.1px;
@@ -1259,7 +1259,7 @@ input:-webkit-autofill {
 }
 
 .lt-item .media .media-body p {
-  font: 400 12px/18px "Montserrat", sans-serif;
+  font: 400 12px/18px "Montserrat", serif;
   color: #232323;
 }
 
@@ -1442,7 +1442,7 @@ input:-webkit-autofill {
 /*----------------------------------------------------*/
 /*============= latest-news-area btn css ============*/
 .load-btn {
-  font: 400 16px/48px "Montserrat", sans-serif;
+  font: 400 16px/48px "Montserrat", serif;
   color: #232323;
   text-transform: uppercase;
   display: inline-block;
@@ -1483,7 +1483,7 @@ input:-webkit-autofill {
 }
 
 .submit_btn {
-  font: 700 12px/26px "Montserrat", sans-serif;
+  font: 700 12px/26px "Montserrat", serif;
   color: #78797b;
   text-transform: uppercase;
   background: transparent;
@@ -1750,7 +1750,7 @@ input:-webkit-autofill {
 }
 
 .social_share li a span {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", serif;
   font-weight: 400;
 }
 
@@ -1775,7 +1775,7 @@ input:-webkit-autofill {
 .pagination_area .prev_btn, .pagination_area .next_btn {
   font-size: 18px;
   color: #404040;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", serif;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 1.8px;
@@ -1817,7 +1817,7 @@ input:-webkit-autofill {
   border: none;
   padding: 0px;
   font-size: 18px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", serif;
   font-weight: 400;
   color: #78797b;
   position: relative;
@@ -1995,7 +1995,7 @@ input:-webkit-autofill {
 }
 
 .blog-sidebar .widget.widget-search .search-form .form-control {
-  font: 400 12px/25px "Montserrat", sans-serif;
+  font: 400 12px/25px "Montserrat", serif;
   color: #232323;
   border: 1px solid #232323;
   height: 45px;
@@ -2130,12 +2130,12 @@ input:-webkit-autofill {
 }
 
 .blog-sidebar .widget.widget-about .text h3 {
-  font: 400 14px/25px "Playfair Display", sans-serif;
+  font: 400 14px/25px "Playfair Display", serif;
   color: #232323;
 }
 
 .blog-sidebar .widget.widget-about .text p {
-  font: 400 12px/18px "Playfair Display", sans-serif;
+  font: 400 12px/18px "Playfair Display", serif;
   color: #636363;
 }
 
@@ -2152,7 +2152,7 @@ input:-webkit-autofill {
 }
 
 .blog-sidebar .widget.widget-categories .categori-lists li a {
-  font: 400 12px/35px "Montserrat", sans-serif;
+  font: 400 12px/35px "Montserrat", serif;
   color: #959595;
   text-align: center;
   display: block;
@@ -2252,7 +2252,7 @@ input:-webkit-autofill {
 }
 
 .blog-sidebar .widget.widget-post .news p {
-  font: 400 12px/21px "Montserrat", sans-serif;
+  font: 400 12px/21px "Montserrat", serif;
   color: #949494;
   padding: 13px 0px;
   transition: all 0.3s linear;
@@ -2270,7 +2270,7 @@ input:-webkit-autofill {
 }
 
 .blog-sidebar .widget.widget-tags .tags li a {
-  font: 400 10px/22px "Montserrat", sans-serif;
+  font: 400 10px/22px "Montserrat", serif;
   color: #5d5d5d;
   background: #fafafa;
   padding: 4px 15px;
@@ -2294,7 +2294,7 @@ input:-webkit-autofill {
 }
 
 .blog-sidebar .widget.widget-twitter .twitter-slider p {
-  font: 400 12px/18px "Playfair Display", sans-serif;
+  font: 400 12px/18px "Playfair Display", serif;
   color: #232323;
   padding-top: 6px;
 }
@@ -2369,7 +2369,7 @@ input:-webkit-autofill {
 }
 
 .single-blog .blog-text p {
-  font: 400 12px/18px "Playfair Display", sans-serif;
+  font: 400 12px/18px "Playfair Display", serif;
   color: #232323;
   text-align: justify;
 }
@@ -2482,7 +2482,7 @@ input:-webkit-autofill {
 }
 
 .single-blog .post-pagination .pagination-item a {
-  font: 400 11px/22px "Montserrat", sans-serif;
+  font: 400 11px/22px "Montserrat", serif;
   color: #78797b;
   text-transform: uppercase;
   transition: all 0.5s linear;
@@ -2559,11 +2559,11 @@ input:-webkit-autofill {
 
 .author-bio .media-middle h4 a {
   color: #232323;
-  font: 400 16px/22px "Montserrat", sans-serif;
+  font: 400 16px/22px "Montserrat", serif;
 }
 
 .author-bio .media-middle p {
-  font: 400 14px/22px "Playfair Display", sans-serif;
+  font: 400 14px/22px "Playfair Display", serif;
   color: #78797b;
   padding: 8px 0px;
 }
@@ -2623,7 +2623,7 @@ input:-webkit-autofill {
 
 .blog_comments-list .comment .media-middle .reply {
   float: right;
-  font: 400 15px/22px "Montserrat", sans-serif;
+  font: 400 15px/22px "Montserrat", serif;
   color: #78797b;
   text-transform: lowercase;
 }
@@ -2702,12 +2702,12 @@ input:-webkit-autofill {
 }
 
 .form_inner .form-group .error.wobble-error {
-  font: 400 12px/22px "Playfair Display", sans-serif;
+  font: 400 12px/22px "Playfair Display", serif;
   color: #232323;
 }
 
 .form_inner .form-control {
-  font: 400 12px/22px "Playfair Display", sans-serif;
+  font: 400 12px/22px "Playfair Display", serif;
   color: #232323;
   box-shadow: none;
   border: 0px;
@@ -2781,7 +2781,7 @@ input:-webkit-autofill {
 }
 
 #success .modal-dialog .modal-content .modal-header h2, #error .modal-dialog .modal-content .modal-header h2 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", serif;
   font-weight: 700;
   line-height: 1.42857143;
   color: #3b3b3b;
@@ -2792,7 +2792,7 @@ input:-webkit-autofill {
 
 #success .modal-dialog .modal-content .modal-header p, #error .modal-dialog .modal-content .modal-header p {
   padding-bottom: 50px;
-  font: 400 15px/24px "Playfair Display", sans-serif;
+  font: 400 15px/24px "Playfair Display", serif;
   color: #78797b;
   padding-top: 5px;
 }
@@ -2884,7 +2884,7 @@ input:-webkit-autofill {
   position: absolute;
   bottom: 55px;
   right: 0;
-  font: 700 20px/27px "Montserrat", sans-serif;
+  font: 700 20px/27px "Montserrat", serif;
   text-transform: uppercase;
   color: #fff;
   transition: all 0.5s linear;

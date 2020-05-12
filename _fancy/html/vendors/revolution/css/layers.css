@@ -139,7 +139,7 @@ website:   	http://www.themepunch.com
 	border-style:none;
 	border-width:0;
 	color:#000;
-	font-family:"Open Sans", sans-serif;
+	font-family:"Open Sans", serif;
 	font-size:24px;
 	font-weight:800;
 	line-height:20px;
@@ -154,7 +154,7 @@ website:   	http://www.themepunch.com
 	border-style:none;
 	border-width:0;
 	color:#fff;
-	font-family:"Open Sans", sans-serif;
+	font-family:"Open Sans", serif;
 	font-size:24px;
 	font-weight:800;
 	line-height:20px;
@@ -169,7 +169,7 @@ website:   	http://www.themepunch.com
 	border-style:none;
 	border-width:0;
 	color:#000;
-	font-family:"Open Sans", sans-serif;
+	font-family:"Open Sans", serif;
 	font-size:24px;
 	font-weight:300;
 	line-height:20px;
@@ -185,7 +185,7 @@ website:   	http://www.themepunch.com
 	border-style:none;
 	border-width:0;
 	color:#fff;
-	font-family:"Open Sans", sans-serif;
+	font-family:"Open Sans", serif;
 	font-size:30px;
 	font-weight:800;
 	letter-spacing:0;
@@ -202,7 +202,7 @@ website:   	http://www.themepunch.com
 	border-style:none;
 	border-width:0;
 	color:#fff;
-	font-family:"Open Sans", sans-serif;
+	font-family:"Open Sans", serif;
 	font-size:30px;
 	font-weight:300;
 	letter-spacing:0;
@@ -2510,7 +2510,7 @@ website:   	http://www.themepunch.com
 .revtp-searchform input[type="email"],
 .revtp-form input[type="text"],
 .revtp-form input[type="email"]{ 	
-	font-family: "Arial", sans-serif;
+	font-family: "Arial", serif;
     font-size: 15px;
     color: #000;
     background-color: #fff;
@@ -3085,7 +3085,7 @@ website:   	http://www.themepunch.com
 
 .revtp-searchform input[type="submit"],
 .revtp-form input[type="submit"] {	
-	font-family: "Arial", sans-serif;
+	font-family: "Arial", serif;
     line-height: 46px;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -4641,7 +4641,7 @@ tp-caption.Team-Thumb,
 }
 
 #mc_embed_signup input#mce-EMAIL {
-    font-family: "Lato", sans-serif;
+    font-family: "Lato", serif;
     font-size: 15px;
     color: #000;
     background-color: #fff;
@@ -4667,7 +4667,7 @@ tp-caption.Team-Thumb,
 }
 #mc_embed_signup input#mc-embedded-subscribe,
 #mc_embed_signup input#mc-embedded-subscribe:focus {
-    font-family: "Lato", sans-serif;
+    font-family: "Lato", serif;
     line-height: 46px;
     letter-spacing: 1px;
     text-transform: uppercase;

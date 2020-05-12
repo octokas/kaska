@@ -147,7 +147,7 @@ website:    http://www.themepunch.com
   opacity:1;      
   padding:10px;
   box-sizing:border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", serif;
   border-bottom: 1px solid rgba(255,255,255,0.15);
  }
 .gyges .tp-tab-image 

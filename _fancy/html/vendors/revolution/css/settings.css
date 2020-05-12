@@ -587,7 +587,7 @@ img.tp-slider-alternative-image	{
 	height:30px;
 	cursor:pointer;
 	color:#fff !important; text-shadow:0px 1px 1px rgba(0, 0, 0, 0.6) !important; font-size:15px; line-height:45px !important;
-	font-family: arial, sans-serif; font-weight: bold; letter-spacing: -1px;
+	font-family: arial, serif; font-weight: bold; letter-spacing: -1px;
 	text-decoration:none;
 }
 
@@ -625,7 +625,7 @@ img.tp-slider-alternative-image	{
 /* TP BUTTONS DESKTOP SIZE */
 
 .rev-btn,
-.rev-btn:visited						{ 	outline:none !important; box-shadow:none !important; text-decoration: none !important; line-height: 44px; font-size: 17px; font-weight: 500; padding: 12px 35px; box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;  font-family: "Roboto", sans-serif;  cursor: pointer;}
+.rev-btn:visited						{ 	outline:none !important; box-shadow:none !important; text-decoration: none !important; line-height: 44px; font-size: 17px; font-weight: 500; padding: 12px 35px; box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;  font-family: "Roboto", serif;  cursor: pointer;}
 
 .rev-btn.rev-uppercase,
 .rev-btn.rev-uppercase:visited			{ 	text-transform: uppercase; letter-spacing: 1px; font-size: 15px; font-weight: 900; }
@@ -782,7 +782,7 @@ img.tp-slider-alternative-image	{
 	font-weight: normal;
 	color: #7f8c8d;
 	color: #ffffff;
-	font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, serif;
 	letter-spacing: 2px;
 }
 .rev-scroll-btn > *:hover,

@@ -1,5 +1,5 @@
 :root {
-	--primary: blue;
+	--primary: maroon;
 	--secondary: white;
 	--background: #FFF0EB;
 }
@@ -189,3 +189,4 @@ button {
 		font-size: 1.1rem;
 	}
 }
+

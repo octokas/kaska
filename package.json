@@ -1,7 +1,7 @@
 {
   "name": "kaska",
   "version": "1.0.3",
-  "description": "A boilerplate for building a fast static website with the Eleventy static site generator, for deployment to Netlify.",
+  "description": "Kaska Miskolczi is an experienced Software Engineer with expertise in vanilla JavaScript, frameworks such as NodeJS, ReactJS, and her favorite 11ty; and Kaska is also highly experienced with Bash Scripting, Perl/Curl, C/C++, Binary, ASM, and all VM tools utilized for cloud and mainframe migration. Design is more of Kaska's secondary love than her primary driving force, but within that scope she's best known for her 2D/3D character illustrations and animation projects, beautifully crafted websites/visualizations and her flight simulation control software.",
   "scripts": {
     "build": "npx eleventy",
     "watch": "npx eleventy --watch",
@@ -35,7 +35,8 @@
     "markdown-it": "^10.0.0",
     "markdown-it-anchor": "^5.2.7",
     "netlify-cli": "^2.49.0",
-    "node-sass": "^4.14.1"
+    "node-sass": "^4.14.1",
+    "polyfill": "^0.1.0"
   },
   "dependencies": {
     "clean-css": "^4.2.1",

@@ -19,7 +19,7 @@
     "git.enableSmartCommit": true,
     "editor.tabSize": 1,
     "editor.useTabStops": false,
-    "editor.wordWrap": "off",
+    "editor.wordWrap": "on",
     "files.associations": {
         "*.svg": "html",
         "*.njk": "njk",

@@ -28,9 +28,9 @@ margin-bottom: 1em;
 
 /* logout button */
 li.netlify-identity-item:nth-child(2) {
-color: rgb(58, 105, 199);
+color: maroon;
 background-color: rgb(232, 245, 254);
-border-left-color: rgb(72, 99, 198);
+border-left-color: maroon;;
 width: 5em;
 text-align: center;
 float: right;

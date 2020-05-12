@@ -28,10 +28,55 @@ li.netlify-identity-item:nth-child(1) {
 
 /* logout button */
 li.netlify-identity-item:nth-child(2) {
- color: rgb(58, 105, 199);
+ color: maroon;
  background-color: rgb(232, 245, 254);
- border-left-color: rgb(72, 99, 198);
+ border-left-color: maroon;
  width: 5em;
  text-align: center;
  float: right;
+}
+
+/* CMS */
+
+body {
+  background-color: rgba(27, 0, 0, 0.03) !important;
+  background-color: rgba(26, 26, 26, 0.12) !important;
+}
+
+body, h1, h2, h3, h4, h5, h6, p {
+  color: rgba(26, 26, 26, 0.85) !important;
+}
+
+.css-1qfk5ut-CollectionTopNewButton-button-default-gray {
+  background-color: rgba(128, 0, 0, 1) !important;
+}
+
+.css-1qfk5ut-CollectionTopNewButton-button-default-gray:hover, .css-gkrpnu-StyledDropdownButton-button-default-caretDown-AppHeaderQuickNewButton-button-medium-gray {
+  background-color: rgba(26, 26, 26, 1) !important;
+}
+
+.css-gkrpnu-StyledDropdownButton-button-default-caretDown-AppHeaderQuickNewButton-button-medium-gray:hover {
+  background-color: rgba(85, 90, 101, 1) !important;
+}
+
+.css-104dqk8-AppHeaderButton-button-buttonActive-buttonActive-buttonActive-buttonActive-AppHeaderButton:hover, .css-104dqk8-AppHeaderButton-button-buttonActive-buttonActive-buttonActive-buttonActive-AppHeaderButton:active, .css-104dqk8-AppHeaderButton-button-buttonActive-buttonActive-buttonActive-buttonActive-AppHeaderButton:focus, .css-104dqk8-AppHeaderButton-button-buttonActive-buttonActive-buttonActive-buttonActive-AppHeaderButton:hover .ei6fm2r1, .css-104dqk8-AppHeaderButton-button-buttonActive-buttonActive-buttonActive-buttonActive-AppHeaderButton:active .ei6fm2r1, .css-104dqk8-AppHeaderButton-button-buttonActive-buttonActive-buttonActive-buttonActive-AppHeaderButton:focus .ei6fm2r1, .css-12yqrwa-AppHeaderNavLink-AppHeaderButton-button-buttonActive-buttonActive-buttonActive-buttonActive-AppHeaderButton.header-link-active, .css-12yqrwa-AppHeaderNavLink-AppHeaderButton-button-buttonActive-buttonActive-buttonActive-buttonActive-AppHeaderButton.header-link-active .ei6fm2r1, .css-1fh4556-ViewControlsButton-button, .css-12yqrwa-AppHeaderNavLink-AppHeaderButton-button-buttonActive-buttonActive-buttonActive-buttonActive-AppHeaderButton:hover .ei6fm2r1, .css-12yqrwa-AppHeaderNavLink-AppHeaderButton-button-buttonActive-buttonActive-buttonActive-buttonActive-AppHeaderButton:active .ei6fm2r1, .css-12yqrwa-AppHeaderNavLink-AppHeaderButton-button-buttonActive-buttonActive-buttonActive-buttonActive-AppHeaderButton:focus .ei6fm2r1, .css-12yqrwa-AppHeaderNavLink-AppHeaderButton-button-buttonActive-buttonActive-buttonActive-buttonActive-AppHeaderButton:hover, .css-12yqrwa-AppHeaderNavLink-AppHeaderButton-button-buttonActive-buttonActive-buttonActive-buttonActive-AppHeaderButton:active, .css-12yqrwa-AppHeaderNavLink-AppHeaderButton-button-buttonActive-buttonActive-buttonActive-buttonActive-AppHeaderButton:focus {
+  color: rgba(26, 26, 26, 1) !important;
+}
+.css-104dqk8-AppHeaderButton-button-buttonActive-buttonActive-buttonActive-buttonActive-AppHeaderButton {
+  color: rgba(26, 26, 26, 1) !important;
+  background: rgba(26, 26, 26, 0) none repeat scroll 0% 0% !important;
+}
+
+.css-13jb366-SidebarNavLink-sidebarNavLinkActive-SidebarNavLink:hover, .css-13jb366-SidebarNavLink-sidebarNavLinkActive-SidebarNavLink:active, .css-13jb366-SidebarNavLink-sidebarNavLinkActive-SidebarNavLink.sidebar-active, li.netlify-identity-item:nth-child(2) {
+  color: maroon !important;
+  border-left-color: maroon !important;
+  background-color: rgba(128, 0, 0, 0.1) !important;
+}
+
+li.netlify-identity-item:nth-child(2) a {
+  color: maroon !important;
+}
+
+li.netlify-identity-item:nth-child(2) {
+  padding-bottom: 5px;
 }

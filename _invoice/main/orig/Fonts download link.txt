@@ -1,0 +1,7 @@
+Before open the file, please download and install the font first:
+
+-----
+
+www.fontsquirrel.com/fonts/roboto
+
+(font designed by Christian Robertson)

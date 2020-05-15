@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.luminar.lmnr</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>documentbundle</string>
+	<key>CFBundlePackageType</key>
+	<string>LMNR</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.1.0</string>
+	<key>CFBundleVersion</key>
+	<string>5699</string>
+	<key>MPHistoryDict</key>
+	<dict>
+		<key>cachedTexturesBookmarksDict</key>
+		<dict>
+			<key>/Users/kaska/Development/kaska/assets/images/Kaska_Greyscale.png</key>
+			<data>
+			Ym9vaywDAAAAAAQQMAAAADaIPJqYrm0QwdCHuqR0jtgIOKeR2i7t
+			ci/lz4v4EKLIKAIAAAQAAAADAwAAAAgAKAUAAAABAQAAVXNlcnMA
+			AAAFAAAAAQEAAGthc2thAAAACwAAAAEBAABEZXZlbG9wbWVudAAG
+			AAAAAQEAAGFzc2V0cwAABgAAAAEBAABpbWFnZXMAABMAAAABAQAA
+			S2Fza2FfR3JleXNjYWxlLnBuZwAcAAAAAQYAABAAAAAgAAAAMAAA
+			ACAAAABEAAAAVAAAAGQAAAAIAAAABAMAAJ1TAAAAAAAACAAAAAQD
+			AAB9jwUAAAAAAAgAAAAEAwAA8E8VAAAAAAAIAAAABAMAAA/dkwEA
+			AAAACAAAAAQDAAB+3ZMBAAAAAAgAAAAEAwAAgt2TAQAAAAAIAAAA
+			BAMAAN/hrgEAAAAAHAAAAAEGAACkAAAAtAAAAMQAAADUAAAA5AAA
+			APQAAAAEAQAACAAAAAAEAABBwjcBbsVDYBgAAAABAgAAAQAAAAAA
+			AAAPAAAAAAAAAAAAAAAAAAAACAAAAAQDAAAFAAAAAAAAAAQAAAAD
+			AwAA9QEAAAgAAAABCQAAZmlsZTovLy8MAAAAAQEAAE1hY2ludG9z
+			aCBIRAgAAAAEAwAAAOAB4+gAAAAIAAAAAAQAAEHBuxkr2malJAAA
+			AAEBAAAwRUQ4QzgzQy05NzA1LTRFNzgtODVERC0zMzI0RkFEQkQx
+			NUYYAAAAAQIAAIEAAAABAAAA7xMAAAEAAAAAAAAAAAAAAAEAAAAB
+			AQAALwAAAAAAAAABBQAAzAAAAP7///8BAAAAAAAAABAAAAAEEAAA
+			gAAAAAAAAAAFEAAAFAEAAAAAAAAQEAAASAEAAAAAAABAEAAAOAEA
+			AAAAAAACIAAAFAIAAAAAAAAFIAAAhAEAAAAAAAAQIAAAlAEAAAAA
+			AAARIAAAyAEAAAAAAAASIAAAqAEAAAAAAAATIAAAuAEAAAAAAAAg
+			IAAA9AEAAAAAAAAwIAAAIAIAAAAAAAABwAAAaAEAAAAAAAARwAAA
+			IAAAAAAAAAASwAAAeAEAAAAAAAAQ0AAABAAAAAAAAAA=
+			</data>
+		</dict>
+		<key>cachedTexturesDict</key>
+		<dict>
+			<key>/Users/kaska/Development/kaska/assets/images/Kaska_Greyscale.png</key>
+			<string>EF5CD614-03F0-47D2-93FB-BB8BD90C0DD0.png</string>
+		</dict>
+		<key>currentLevelOfHistory</key>
+		<integer>35</integer>
+		<key>historyDicts</key>
+		<array>
+			<dict>
+				<key>actionName</key>
+				<string>Preset AI Auto Enhancer: Activated</string>
+				<key>hash</key>
+				<string>f964a3c909be616b54956a41438438dd:0:1</string>
+				<key>uuid</key>
+				<string>ABC3FBB9-0CA6-4FA3-AC12-95ABA5D48C3D</string>
+			</dict>
+			<dict>
+				<key>actionName</key>
+				<string>Preset AI Sky Enhancer: Activated</string>
+				<key>hash</key>
+				<string>2a07bb20a17f7eccc2d7635fab0d806d:0:1</string>
+				<key>uuid</key>
+				<string>08E87BCF-79DA-4866-BA12-004333776749</string>
+			</dict>
+			<dict>
+				<key>actionName</key>
+				<string>Preset B&amp;W Nostalgy: Activated</string>
+				<key>hash</key>
+				<string>9a4783f78ea75ddee1447b6d5353b01d:0:1</string>
+				<key>uuid</key>
+				<string>E8DC7198-3930-4499-957A-4A7B2E0B7483</string>
+			</dict>
+			<dict>
+				<key>actionName</key>
+				<string>Preset Balanced: Activated</string>
+				<key>hash</key>
+				<string>4083fc284795676077ff570cec0dd36e:0:1</string>
+				<key>uuid</key>
+				<string>38444E8B-88CE-4A59-8C6C-C562133AF424</string>
+			</dict>
+			<dict>
+				<key>actionName</key>
+				<string>Preset Bright Day: Activated</string>
+				<key>hash</key>
+				<string>655db73e52cc09075483aa62de59af1d:0:1</string>
+				<key>uuid</key>
+				<string>EA327290-78DB-41C3-8EA8-83A62EA5ABE7</string>
+			</dict>
+			<dict>
+				<key>actionName</key>
+				<string>Preset Dehaze: Activated</string>
+				<key>hash</key>
+				<string>c6feb053c259312a4e5adde6e51ae2b9:0:1</string>
+				<key>uuid</key>
+				<string>29B19356-54B3-4543-BAAE-3BF90BAFED7E</string>
+			</dict>
+			<dict>
+				<key>actionName</key>
+				<string>Preset Intensified: Activated</string>
+				<key>hash</key>
+				<string>6b0c5a815e018eb277ef2d492f727e2e:0:1</string>
+				<key>uuid</key>
+				<string>FA201424-1484-457C-AB33-DD6C7B247414</string>
+			</dict>
+			<dict>
+				<key>actionName</key>
+				<string>Preset Sharpness Improver: Activated</string>
+				<key>hash</key>
+				<string>4b5ab9f649e201473e299a2a3dd4e189:0:1</string>
+				<key>uuid</key>
+				<string>AB2770C1-614F-44AD-9974-9FD4D3409E24</string>
+			</dict>
+			<dict>
+				<key>actionName</key>
+				<string>Preset Soft Glow: Activated</string>
+				<key>hash</key>
+				<string>e93f3d202d09d5f05cc7068c4a3765f0:0:1</string>
+				<key>uuid</key>
+				<string>8D73FB55-8C7D-4A14-B156-854CA6BDD583</string>
+			</dict>
+			<dict>
+				<key>actionName</key>
+				<string>Preset Intensified: Activated</string>
+				<key>hash</key>
+				<string>0ecd7330505eff9d23c12d62f4b99c77:0:1</string>
+				<key>uuid</key>
+				<string>926B82FB-E97A-4DED-A65F-9A59F32BF679</string>
+			</dict>
+			<dict>
+				<key>actionName</key>
+				<string>Preset Soft Glow: Activated</string>
+				<key>hash</key>
+				<string>6012b65fbf9532994deed50749c7c529:0:1</string>
+				<key>uuid</key>
+				<string>9F4A18B9-B62E-4B28-BF98-D1BCF7D50B47</string>
+			</dict>
+			<dict>
+				<key>actionName</key>
+				<string>Kaska_Greyscale.png: Filters Amount</string>
+				<key>additionalInfo</key>
+				<string>+100</string>
+				<key>hash</key>
+				<string>8dc78b0ca2a0ae2905e3ec0d22157a84:0:1</string>
+				<key>uuid</key>
+				<string>4E50E4CA-4762-4FA1-9A02-5B9BBF58688D</string>
+			</dict>
+			<dict>
+				<key>actionName</key>
+				<string>Preset Intensified: Activated</string>
+				<key>hash</key>
+				<string>8dc78b0ca2a0ae2905e3ec0d22157a84:0:1</string>
+				<key>uuid</key>
+				<string>D2D93836-4765-4DEC-911E-B98FF77B1333</string>
+			</dict>
+			<dict>
+				<key>actionName</key>
+				<string>Kaska_Greyscale.png: Filters Amount</string>
+				<key>additionalInfo</key>
+				<string>+47</string>
+				<key>hash</key>
+				<string>5334470fdc3910dc4f3a30f7759bdd40:0:1</string>
+				<key>uuid</key>
+				<string>4CBC7324-235E-4885-A115-E976B7E1B7EF</string>
+			</dict>
+			<dict>
+				<key>actionName</key>
+				<string>Kaska_Greyscale.png: Filters Amount</string>
+				<key>additionalInfo</key>
+				<string>+37</string>
+				<key>hash</key>
+				<string>3617f9409b47f8c4eefef7b56f88233e:0:1</string>
+				<key>uuid</key>
+				<string>AFCFD2FE-A0D7-4D4C-A2BB-4398F304931B</string>
+			</dict>
+			<dict>
+				<key>actionName</key>
+				<string>Soft Glow: Added Filter</string>
+				<key>hash</key>
+				<string>547d2ef72cfc5c835bdd29d2a9cc74fa:0:1</string>
+				<key>uuid</key>
+				<string>DD3719CA-A329-4194-B364-2CDDA4F07654</string>
+			</dict>
+			<dict>
+				<key>actionName</key>
+				<string>Soft Glow: Amount</string>
+				<key>additionalInfo</key>
+				<string>+100</string>
+				<key>hash</key>
+				<string>69dcc67554e1504e89c49ad86a519bdc:0:1</string>
+				<key>uuid</key>
+				<string>21165530-683B-446E-A36E-722CDFBE40C1</string>
+			</dict>
+			<dict>
+				<key>actionName</key>
+				<string>Soft Glow: Smoothness</string>
+				<key>additionalInfo</key>
+				<string>+69</string>
+				<key>hash</key>
+				<string>762026b5d2d621467c8278a2a3283d9f:0:1</string>
+				<key>uuid</key>
+				<string>2629C715-1943-44B7-8F11-1447EB2C8E36</string>
+			</dict>
+			<dict>
+				<key>actionName</key>
+				<string>Soft Glow: Brightness</string>
+				<key>additionalInfo</key>
+				<string>+34</string>
+				<key>hash</key>
+				<string>e980c8191ffd615a32c09d3977d4026b:0:1</string>
+				<key>uuid</key>
+				<string>85F4478D-BFAF-46A0-98B7-D9880E4641B0</string>
+			</dict>
+			<dict>
+				<key>actionName</key>
+				<string>Soft Glow: Brightness</string>
+				<key>additionalInfo</key>
+				<string>+1</string>
+				<key>hash</key>
+				<string>c62b6dea3e2d520cdea9ef7bdddcdc76:0:1</string>
+				<key>uuid</key>
+				<string>91914DEB-2E9E-4AD1-B398-7048E4227027</string>
+			</dict>
+			<dict>
+				<key>actionName</key>
+				<string>Soft Glow: Brightness</string>
+				<key>additionalInfo</key>
+				<string>0</string>
+				<key>hash</key>
+				<string>77517f10429447cd8a38cf3e14b76e07:0:1</string>
+				<key>uuid</key>
+				<string>91DB2891-57B1-4473-BF02-A9BC3030303D</string>
+			</dict>
+			<dict>
+				<key>actionName</key>
+				<string>Soft Glow: Smoothness</string>
+				<key>additionalInfo</key>
+				<string>+100</string>
+				<key>hash</key>
+				<string>e980c8191ffd615a32c09d3977d4026b:0:1</string>
+				<key>uuid</key>
+				<string>18404EFD-5704-405C-8356-A56EB20E2673</string>
+			</dict>
+			<dict>
+				<key>actionName</key>
+				<string>Sunrays: Added Filter</string>
+				<key>hash</key>
+				<string>d34b5b5c50f4df0a28463044a3c35fa1:0:1</string>
+				<key>uuid</key>
+				<string>DB29B763-31C1-4A4D-B76E-9FC4424A20E7</string>
+			</dict>
+			<dict>
+				<key>actionName</key>
+				<string>Sunrays: X</string>
+				<key>additionalInfo</key>
+				<string>+107</string>
+				<key>hash</key>
+				<string>9f7c48578a1f34c855deb5047e4b6339:0:1</string>
+				<key>uuid</key>
+				<string>2F6F4D09-EE97-4B58-9447-8013504C797F</string>
+			</dict>
+			<dict>
+				<key>actionName</key>
+				<string>Sunrays: Y</string>
+				<key>additionalInfo</key>
+				<string>-3</string>
+				<key>hash</key>
+				<string>67da686c8c1a18f733df0519188d77be:0:1</string>
+				<key>uuid</key>
+				<string>71654022-A294-49CF-BB19-48D375BD7BB8</string>
+			</dict>
+			<dict>
+				<key>actionName</key>
+				<string>Sunrays: X</string>
+				<key>additionalInfo</key>
+				<string>-11</string>
+				<key>hash</key>
+				<string>0852d4b36726cc3b65b01d74571896c4:0:1</string>
+				<key>uuid</key>
+				<string>93F6ABD5-842B-4AF4-9120-C76220E4E5FC</string>
+			</dict>
+			<dict>
+				<key>actionName</key>
+				<string>Sunrays: Amount</string>
+				<key>additionalInfo</key>
+				<string>+15</string>
+				<key>hash</key>
+				<string>06f4e0e5aa35112981df32cec7025fc3:0:1</string>
+				<key>uuid</key>
+				<string>91C1D6C3-16D4-4AC5-9C5D-FAF9C7CD9787</string>
+			</dict>
+			<dict>
+				<key>actionName</key>
+				<string>Sunrays: Amount</string>
+				<key>additionalInfo</key>
+				<string>+12</string>
+				<key>hash</key>
+				<string>986b45a940f03146bb84f4c3bf2e3763:0:1</string>
+				<key>uuid</key>
+				<string>B1842C19-6F98-41A5-AA9F-F9D6821E1CF8</string>
+			</dict>
+			<dict>
+				<key>actionName</key>
+				<string>Sunrays: Warmth</string>
+				<key>additionalInfo</key>
+				<string>+54</string>
+				<key>hash</key>
+				<string>1ffecc01fa089a40f8cbefbd26e52b88:0:1</string>
+				<key>uuid</key>
+				<string>7077F873-555E-4774-8396-34C5974872C9</string>
+			</dict>
+			<dict>
+				<key>actionName</key>
+				<string>Highlights / Shadows: Added Filter</string>
+				<key>hash</key>
+				<string>e5c95410820aad8480925e7e83d401a8:0:1</string>
+				<key>uuid</key>
+				<string>77D33116-97D9-430D-ACFC-4DC40C8788BC</string>
+			</dict>
+			<dict>
+				<key>actionName</key>
+				<string>Highlights / Shadows: Shadows</string>
+				<key>additionalInfo</key>
+				<string>+52</string>
+				<key>hash</key>
+				<string>f393a086dc59e9386d4f56232c8453fc:0:1</string>
+				<key>uuid</key>
+				<string>AB14116F-6E5F-4621-8E3E-C96C3CD01B44</string>
+			</dict>
+			<dict>
+				<key>actionName</key>
+				<string>Highlights / Shadows: Highlights</string>
+				<key>additionalInfo</key>
+				<string>0</string>
+				<key>hash</key>
+				<string>e751bdb0e592f2b915111e0b7837d16a:0:1</string>
+				<key>uuid</key>
+				<string>71A2D6DB-6258-45B9-B3AA-4CD9F9D76E27</string>
+			</dict>
+			<dict>
+				<key>actionName</key>
+				<string>Highlights / Shadows: Shadows</string>
+				<key>additionalInfo</key>
+				<string>-29</string>
+				<key>hash</key>
+				<string>ce817c3d24ac34f2c63aae054dea73f4:0:1</string>
+				<key>uuid</key>
+				<string>391BED88-334D-4C68-806B-CD0CFF128E19</string>
+			</dict>
+			<dict>
+				<key>actionName</key>
+				<string>Highlights / Shadows: Shadows</string>
+				<key>additionalInfo</key>
+				<string>-24</string>
+				<key>hash</key>
+				<string>d64bba9a1b5c705ced361b76125b6da0:0:1</string>
+				<key>uuid</key>
+				<string>F18A3282-0276-4E8A-8994-AEDA2F16AFBF</string>
+			</dict>
+			<dict>
+				<key>actionName</key>
+				<string>Highlights / Shadows: Highlights</string>
+				<key>additionalInfo</key>
+				<string>0</string>
+				<key>hash</key>
+				<string>b5e6e2e8a0214b5fa459e80347e9ffa4:0:1</string>
+				<key>uuid</key>
+				<string>C301D6EF-B33A-432E-92C2-BCE33D7AE405</string>
+			</dict>
+			<dict>
+				<key>actionName</key>
+				<string>--FORCE SAVE--</string>
+				<key>hash</key>
+				<string>469bf517e33279904badb8cd33f8b64a:0:1</string>
+				<key>uuid</key>
+				<string>C49C99FB-59AE-44F9-97A2-520AC0B39F04</string>
+			</dict>
+		</array>
+	</dict>
+	<key>MPMainBundleIdentifier</key>
+	<string>com.macphun.LuminarFlex-setapp</string>
+	<key>MPOriginalImagePath</key>
+	<string>/Users/kaska/Development/kaska/assets/images/Kaska_Greyscale.png</string>
+	<key>MPQuickLookThumbnailSize</key>
+	<string>{1361, 1700}</string>
+	<key>MPSaveHistoryToDocument</key>
+	<true/>
+	<key>MPdeleteOrigResources</key>
+	<false/>
+</dict>
+</plist>

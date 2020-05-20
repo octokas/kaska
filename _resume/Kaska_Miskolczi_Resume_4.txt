@@ -1,0 +1,360 @@
+
+Kaska Miskolczi
+Unicorn Design & Development Engineer
+
+Atlanta, GA 30338
+Phone: (208) 699-7979
+E-Mail: stddef@outlook.hu
+
+Professional Summary
+
+Industrious and capable Engineer with proven history of enhancing technical operations. Gifted with strong analytical and excellent troubleshooting skills, investigating root causes and implementing successful resolutions. Adept in iterative deployments, with particular emphasis on continual integration, automation and milestone driven development.
+Proficient in conducting primary and secondary research for both user experiences and team motivation strategies, to help boost overall performance for everyone.
+Familiar with the policies and procedures required to maintain compliance for HIPPA, Government CMS (USA, Ireland, Canada, EU), and payment processing. Also highly competent in systems management, data modeling, architectural diagramming, and proposal development.
+
+Work History
+
+December 2015 to Current
+Miskolczi Software Atlanta, GA
+Senior Consultant    
+
+Contributed to success of client's organization by improving performance, motivation, job satisfaction, hiring practices, training programs and management systems.
+Worked with product planners and engineers from conceptualization to production launch, refining cloud, on-prem and hybrid platforms, with feasibility, design, operation and performance at the for-front of all component and system solutions.
+Managed infrastructure upgrades, analysis and resolution of end user hardware and software issues; and updated company systems for efficiency, to improve overall productivity 64%.
+Created software with computer scripting input and processed by software to generate commands, events, objects and characters for player interaction.
+
+July 2018 to November 2018
+RelayHealth Corporation Atlanta, GA
+Senior Cloud Security and Design Consultant    
+
+Designed and implemented system security and data assurance, and enterprise processes, with best practices tailored for healthcare requirements via HIPPA and Gov.CMS.
+Wrote and maintained custom scripts to increase system efficiency and performance time, during installations, configurations and maintenance of operating systems, for an SLA of 99.9999997%
+Implemented network security equipment, including firewalls, two-factor authentication, and antivirus software for networks supporting over 2.5 million users.
+Prepared, all documentation and continued grant proposals to support Azure and OpenStack environments, implemented with a front-end design for level II tech implementation.
+
+October 2017 to July 2018
+Booz Allen Hamilton Atlanta, GA
+Senior User Interface Developer    
+
+Maintained strict budgetary and scheduling guidelines to satisfy clients with high-quality, targeted designs with on-shore and off-shore development teams.
+Designed and executed security measures such as firewalls, MFA, block-chain encryption, and SEIM logging with scripted alerts.
+Planned and engineered RESTful web services, consuming Tableau outputs into JSON and designed with D3JS, to manipulate dynamic datasets for CDC's and ArcGIS datasets.
+Conceived and built optimized mobile and web applications in HTML, CSS, PHP, .NET, C# with Razor, vanilla JavaScript, Angular and NodeJS.
+
+February 2017 to November 2017
+FierceMarkets Washington, DC
+Software Developer    
+
+Collaborated with developers and performance engineers to enhance supportability and identify performance bottlenecks, throughout all stages of our development lifecycle.
+Revised, modularized and updated old code bases to modern development standards, reducing operating costs 36%.
+Led group of 15 engineers in design and development of headless CMS of Drupal via Bash Scripting, Drush, and AWS solutions.
+Orchestrated efficient large-scale software deployments, including testing features and correcting code.
+Performed regression, unit-blocked and system-level testing to verify software quality and function prior to release.
+Compiled specifications, dev. methods and other scripting modifiers for headlessCMS project into technical manuals for team.
+Interfaced between high-value customers and junior developers, encouraging use of client feedback in software updates.
+
+April 2015 to November 2016
+Florida SouthWestern State College Naples, FL
+Webmaster and 3D Animator    
+
+Gathered and synthesized business requirements, as the team representative in executive meetings, discussing defining and translating user requirements into project designs and implementation plans, exceeding aggressive deadlines.
+Strengthened company brand and identity by creating distinctive website and logo, post Edison State College name change.
+Built user interface, data visualizations and designed to eliminate bugs and improve overall user experience, resulting in 27% increase of enrollment and SEO/SEM click-through rates.
+Owned more than 82 corporate projects per year from initial research and conceptual design through testing, development and implementation phases.
+Spearheaded and implemented use of Git and Mercurial version control across all four campuses for design and development.
+Created powerful headless Content Management System built with HTML, CSS, PHP, vanilla JavaScript, C++, MySQL, Oracle Cloud, AWS, Puppet, and OpenStack solutions, to serve as interface for client.
+Automated consumption of Oracle and SAP data outputs, by custom built RESTful and SOAP micro-services to manipulate dynamic datasets with multiple entry and touch points.
+
+December 2013 to July 2014
+Abbey Carpet And Floor Bonita Springs, FL
+Webmaster    
+
+Liaised with customers to determine pre-development design specifications, including finished design parameters, implementation deliverables and to meet strict deadlines.
+Built user interface, data visualizations and designed overall user experience, resulting in 67% increase in sales and100% improvement in ADA/WCAG compliance.
+Delivered drastic improvements to new headless CMS framework, developed off a Sitecore distro, still in use today, leading to 97% efficiency boost, with emphasis on realtime API integrations with other big-box retailers across the continental USA.
+Wrote server-side and client-side code for C# and .NET and .NET Core projects using Bash Scripting, PHP, HTML, CSS, and JavaScript, specifically with Angular and Node frameworks.
+Created detailed performance KPIs and analytical reports on client website strategies, honing user demographics and statistics using Google Analytics and custom vanilla JavaScript automation.
+
+September 2012 to February 2014
+Unites Parcel Service Of America Fort Myers, FL
+Aircraft Weight and Balance Algorithmic Engineer    
+
+Identified issues with software components and isolated regulation faults prior to implementing corrective actions.
+Interpreted aircraft specifications, diagrams and blueprints and compared information to completed work verify quality and assess vehicle integrity.
+Assisted dismantling and repairing of reconditioned aircraft structural parts and hangar equipment to repair malfunctions and enhance functionality, performance and durability.
+Adhered to strict safety procedures and protocols when creating automated logarithmic functions via Binary, ASM, C/C++ libraries, protecting both flight personnel and software equipment.
+Cultivated vast knowledge of aircraft systems by attending training workshops, enhancing functionality of systems, automating the checkout control features of our Boeing cargo aircraft and implementation of expertise in routine work and special projects.
+Saved USP over $2 million by implementing cost-saving initiatives that addressed long-standing problems related to our incremental weight and balance control system.
+
+December 2009 to March 2013
+Florida Gulf Coast University Naples, Florida
+Scripting and Automation Engineer    
+
+Performed gap analysis procedures and detailed data reviews to optimize cost-effective strategies for software implementation.
+Tested, automated and whitelisted software to be used in secure environments, establishing a university-wide automation methodology, frameworks and tools.
+Exercised complete understanding of PLC, XML, Bash, Binary, and ASM programming to support maintenance and optimized automation of our programs.
+Collaborated with systems engineers and customers to determine machine requirements and develop specifications for user interface, machine functions and quality control to deliver reliable automation systems.
+Kept on track with deadlines for development cycle times.
+Utilized comprehensive understanding of Allen Bradley Ladder Logic to produce code to revolutionize automation.
+Supported Engineering and Maintenance departments with complex troubleshooting, training and technical support.
+
+Education
+
+Florida Gulf Coast University Naples, Florida
+Bachelor of Arts Philosophy of Science And Technology With AI 
+
+Skills
+
+Network administration 
+
+Consulting 
+
+Data collection and analysis 
+
+Scalability Planning 
+
+System Diagnostics 
+
+Project Management 
+
+Project Documentation 
+
+Strategization 
+
+Systems Analysis 
+
+Budgeting 
+
+User Interface Design 
+
+Team Oversight 
+
+Troubleshooting 
+
+Website Optimization 
+
+Content Marketing Strategy 
+
+Agile Workflow Processes 
+
+Marketing Automation 
+
+Design Pattern Libraries 
+
+Programmatic Automation 
+
+Recursive and Unit Testing 
+
+Regulatory Compliance 
+
+Troubleshooting 
+
+Safety Procedures 
+
+Avionics Wiring Repair 
+
+Data Management 
+
+VBScript 
+
+Flash and ActionScript 
+
+Advanced C and C++ 
+
+Virtualization 
+
+Network Dev. & Admin. 
+
+Technical Writing 
+
+API Design Knowledge 
+
+Shell Scripting 
+
+.Net Development 
+
+Advanced Knowledge of PHP 
+
+System Development and Administration 
+
+MS Office 
+
+Communications 
+
+Customer Service 
+
+QA Automation 
+
+UX Performance Analysis 
+
+UX Diagnostic Management 
+
+User Data Collection 
+
+Iterative Development 
+
+User Interface Development 
+
+Vanilla JavaScript 
+
+JS Framework: Angular 
+
+JS Framework: React 
+
+JS Framework: Node 
+
+JS Framework: 11ty 
+
+JS Library: Ionic 
+
+JS Library: Stencil 
+
+JS Library: jQuery 
+
+ASP.NET & .NET Core 
+
+C# with Razor 
+
+C/C++ 
+
+Bash/ZSH/KSH 
+
+Curl & Perl 
+
+PHP 5.7+ 
+
+MySQL and MySQL Server 
+
+Oracle Cloud 
+
+Azure Cloud 
+
+Axure UX 
+
+Adobe Creative Suite 
+
+Maxon Cinema 4D 
+
+AutoDesk Suite 
+
+Sketch 
+
+Figma 
+
+MarvelApp 
+
+WordPress 
+
+HTML/CSS 
+
+PostgreSQL 
+
+CouchDB 
+
+Ruby & Rails 
+
+JS Framework: Ember 
+
+JS Library: Handlebars 
+
+JS Framework: D3 
+
+JS Framework: Three 
+
+Tableau 
+
+SAP SolEx & S/4HANA 
+
+Sitecore 
+
+Drupal 
+
+Magento 
+
+Shopify 
+
+WooCommerce 
+
+DB2 Databases 
+
+Jet Databases 
+
+Binary 
+
+ASM & Web ASM 
+
+NoSQL 
+
+IBM Informix 
+
+ArcGIS Server 
+
+Tivoli Storage Manager 
+
+Kubernetes 
+
+Docker 
+
+AWS 
+
+IBM Bluemix 
+
+Python 
+
+Objective C 
+
+Swift 
+
+IBM Watson 
+
+Kali Linux 
+
+DNS Tree Traversals 
+
+Block-Chain (Bytes) 
+
+SHA Encryption & Alg 
+
+Algol 68 
+
+HPE Non-Stop 
+
+Pascal 
+
+Cobol 
+
+VMware 
+
+VirtualBox 
+
+Ansible & Ansible Tower 
+
+ATLAS Machine Learning 
+
+Apache Mahout 
+
+Apache Kafka 
+
+Prototyping 
+
+Wireframing 
+
+Animation 
+
+Character Illustration 
+
+Product Design 
+
+Branding 
+
+SEO/SEM Digital Marketing 
+
+Print Mail Order Campaigns 
+
+Email Marketing 
+
+Surveys via Qualtrix 
+
+Survey Automation 
+
+Data Analysis 

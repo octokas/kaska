@@ -11,6 +11,10 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+  width: 100%;
+  max-width: 1100px;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 /*
@@ -24,12 +28,14 @@ html {
  */
 
 ::-moz-selection {
-  background: #b3d4fc;
+  background: #373D48;
+  color: white;
   text-shadow: none;
 }
 
 ::selection {
-  background: #b3d4fc;
+  background: #373D48;
+  color: white;
   text-shadow: none;
 }
 
@@ -91,8 +97,206 @@ textarea {
 }
 
 /* ==========================================================================
-   Extra custom styles
+   Main Resume Styles
    ========================================================================== */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,669;0,700;0,800;0,900;1,400;1,500;1,600;1,669;1,700;1,800;1,900&display=swap');
+
+/*
+ * Header Color-Block Bar
+ */
+
+.header {
+  position: absolute;
+  width: 100%;
+  background-color: #6E0000;
+  color: whitesmoke;
+  padding: 1vw;
+  padding-left: 2vw;
+  z-index: 2;
+}
+
+.header h1 {
+  font-size: 3em;
+  font-family: 'Georgia', serif;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: left;
+}
+
+.header h2 {
+  font-size: 1.8em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+section#main {
+    width: 100%;
+    max-width: 80%;
+    position: absolute;
+    top: 160px;
+    left: 0px;
+}
+
+div.elevator-pitch {
+  padding-left: 1.8vw;
+  padding-right: 5.4vw;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 100%;
+  /* max-width: 62vw; */
+}
+
+h3.elevator-pitch, h3.work-history {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.6em;
+  margin-top: 0px;
+  color: #373D48;
+}
+
+h3.contact, h3.skills {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4em;
+  margin-top: 0px;
+  text-transform: normal;
+  font-variant: small-caps;
+  color: #373D48;
+}
+
+section.work-history {
+  padding-left: 1.8vw;
+  padding-right: 1.8vw;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+hr {
+  text-align: left;
+  margin-top: -24px;
+  border-top: 1.8px solid #D5D6D6;
+  color: transparent;
+}
+
+hr.elevator-pitch {
+  width: 16vw;
+  max-width: 180px;
+  min-width: 170px;
+}
+
+p.elevator-pitch {
+  width: 100%;
+  max-width: 69vw;
+}
+
+span.disclaimer {
+  font-size: 0.7em;
+  font-style: italic;
+  margin-top: 10px;
+  display: block;
+  color: #6F6F6F;
+}
+
+hr.work-history {
+  width: 12vw;
+  max-width: 180px;
+  min-width: 160px;
+}
+
+h4.work-history {
+  font-size: 1.3em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #2F2F2F;
+}
+
+h5.work-history {
+  font-size: 1em;
+  font-weight: normal;
+  font-style: italic;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #4F4F4F;
+  width: 40vw;
+}
+
+ul.work-history {
+  width: 100%;
+  max-width: 54vw;
+}
+
+.work-history li {
+  list-style-type: hebrew;
+}
+
+/* ul.work-history li::before {
+  content: '\002721';
+  opacity: 0.8;
+  color: rgba(0,0,0,0.5);
+} */
+
+.spacer {
+  font-style: normal;
+  font-size: 0.5em;
+  position: relative;
+  top: -1px;
+}
+
+div#miskolczi-software {
+  padding-right: 5.4vw;
+}
+
+div.aside-background {
+  background-color: #f4f4f4;
+  position: absolute;
+  right: 0px;
+  top: 120px;
+  height: 100%;
+  min-height: 500px;
+  width: 100%;
+  max-width: 18%;
+  float: right;
+  padding: 1.8vw;
+  padding-left: 4vw;
+  display: block;
+}
+
+aside {
+  width: 100%;
+  /* max-width: 14vw; */
+  /* position: static;
+  right: 0px;
+  top: 160px; */
+  text-align: right;
+  padding-right: 1.8vw;
+  padding-top: 1.2vh;
+}
+
+ul.contact, ul.skills {
+  list-style-type: none;
+  font-size: 1em;
+}
+
+h3.contact, h3.skills {
+  text-align: left;
+}
+
+/* ul.contact li {
+  width: 14vw;
+} */
+
+div.block {
+  display: block;
+  background: transparent;
+  height: 70px;
+}
+
+.read-more {
+  word-wrap: break-word;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 
 /* ==========================================================================
    Helper classes

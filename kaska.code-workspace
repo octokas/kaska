@@ -17,7 +17,7 @@
     "editor.minimap.enabled": false,
     "editor.maxTokenizationLineLength": 999999,
     "git.enableSmartCommit": true,
-    "editor.tabSize": 1,
+    "editor.tabSize": 4,
     "editor.useTabStops": false,
     "editor.wordWrap": "on",
     "files.associations": {

@@ -38,8 +38,8 @@ ready(function() {
 
   main = () => document.querySelector('#batman'); //function of retreiving batman
   main().className = 'main'; //added the main class
-  main().insertAdjacentElement('afterbegin', nheads("Batman")); //inserts new element within element, at the front
-  main().insertAdjacentElement('beforeend', nheads("Robin")); //inserts new element within target element, after it's last child
-  main().insertAdjacentElement('beforeend', nheads("Wonder Woman")); //inserts new element within target element, after it's last child
+  main().insertAdjacentElement('afterbegin', nheads("Batman")).className = "hero"; //inserts new element within element, at the front
+  main().insertAdjacentElement('beforeend', nheads("Robin")).className = "sidekick"; //inserts new element within target element, after it's last child
+  main().insertAdjacentElement('beforeend', nheads("Wonder Woman")).className = "ladypimp"; //inserts new element within target element, after it's last child
   console.log(main());
 });

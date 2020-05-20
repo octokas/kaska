@@ -148,7 +148,7 @@ div.elevator-pitch {
   /* max-width: 62vw; */
 }
 
-h3.elevator-pitch, h3.work-history {
+h3.elevator-pitch, h3.work-history, h3.education {
   font-family: 'Playfair Display', serif;
   font-size: 1.6em;
   margin-top: 0px;
@@ -205,7 +205,7 @@ hr.work-history {
 
 h4.work-history {
   font-size: 1.3em;
-  margin-top: 0px;
+  margin-top: -10px;
   margin-bottom: 0px;
   color: #2F2F2F;
 }
@@ -222,11 +222,20 @@ h5.work-history {
 
 ul.work-history {
   width: 100%;
-  max-width: 54vw;
+  max-width: 62vw;
+  list-style-type: none;
 }
 
-.work-history li {
-  list-style-type: hebrew;
+.work-history li::before {
+  /* content: '✓'; */
+  /* content: '➳'; */
+  content: '◍';
+  width: 1.2em;
+  margin-left: -1.2em;
+  display: inline-block;
+  color: rgba(55,61,72,0.5);
+  font-size: 0.8em;
+  /* margin-bottom: 0.8em; */
 }
 
 /* ul.work-history li::before {
@@ -251,7 +260,6 @@ div.aside-background {
   position: absolute;
   right: 0px;
   top: 120px;
-  height: 100%;
   min-height: 500px;
   width: 100%;
   max-width: 18%;
@@ -291,11 +299,36 @@ div.block {
   height: 70px;
 }
 
+section.education {
+  padding-left: 1.8vw;
+  padding-right: 1.8vw;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+hr.education {
+  width: 12vw;
+  max-width: 140px;
+  min-width: 130px;
+}
+
+h4.education {
+  font-size: 1.3em;
+  margin-top: 2px;
+  margin-bottom: 0px;
+  color: #2F2F2F;
+  font-weight: 400;
+}
+
 .read-more {
   word-wrap: break-word;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+div#miskolczi-software, div#relayhealth, div#booz-allen, div#fierce-markets, div#webmaster-animator, div#webmaster, div#aircraft, div#scripting {
+  margin-bottom: 32px;
 }
 
 /* ==========================================================================

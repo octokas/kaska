@@ -125,6 +125,56 @@ var cards = [
     letter: "ל",
     perfekt: "ל Lamed",
     romanized: "(L as in lemon)"
+  },
+  {
+    letter: "מ",
+    perfekt: "מ Mem",
+    romanized: "(M in mother)"
+  },
+  {
+    letter: "נ",
+    perfekt: "נ Nun",
+    romanized: "(N as in cotton)"
+  },
+  {
+    letter: "ס",
+    perfekt: "ס Samekh",
+    romanized: "(S as in ski)"
+  },
+  {
+    letter: "ע",
+    perfekt: "ע Ayin",
+    romanized: "(A as in America)"
+  },
+  {
+    letter: "פ",
+    perfekt: "פ Pe",
+    romanized: "(P as in pony)"
+  },
+  {
+    letter: "צ",
+    perfekt: "צ Sadhe",
+    romanized: "(S/TZ/ZZ as pizza)"
+  },
+  {
+    letter: "ק",
+    perfekt: "ק Qoph",
+    romanized: "(K as in pink)"
+  },
+  {
+    letter: "ר",
+    perfekt: "ר Resh",
+    romanized: "(R as in room)"
+  },
+  {
+    letter: "ש",
+    perfekt: "ש Shin",
+    romanized: "(SH as in sugar)"
+  },
+  {
+    letter: "ת",
+    perfekt: "ת Tav",
+    romanized: "(T as in team)"
   }
 ];
 

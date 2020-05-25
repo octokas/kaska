@@ -1,36 +1,48 @@
 var num = 0;
 var shuffle = document.querySelector(".shuffle");
-var div = document.querySelector("#card");
+var button = document.querySelector("#card");
 var eng = document.querySelector("#trans");
+var instr = document.querySelector("#instr").innerHTML = "Please use either the <b><u>up</u></b> and <b><u>down</u></b> arrow keys, OR use the <b><u>left</u></b> and <b><u>right</u></b> arrow keys to continue through the deck, OR simply <b><u>click</u></b> through the cards.";
 
 document.addEventListener("keydown", event => {
   const keyName = event.key;
   if (keyName === "ArrowRight") {
     checkAnswer();
+  } else if (keyName === "ArrowDown") {
+    checkAnswer();
   } else if (keyName === "ArrowLeft") {
-    if (div.classList.contains("answer")) {
-      div.classList.remove("answer");
+    if (button.classList.contains("answer")) {
+      button.classList.remove("answer");
     }
     if (num > 0) {
       num -= 1;
     }
-    div.innerHTML = cards[num].letter;
+    button.innerHTML = cards[num].letter;
+    eng.textContent = "";
+  } else if (keyName === "ArrowUp") {
+    if (button.classList.contains("answer")) {
+      button.classList.remove("answer");
+    }
+    if (num > 0) {
+      num -= 1;
+    }
+    button.innerHTML = cards[num].letter;
     eng.textContent = "";
   }
 });
 
-div.addEventListener("click", function() {
+button.addEventListener("click", function() {
   checkAnswer();
 });
 
 function checkAnswer() {
-  div.classList.toggle("answer");
-  if (div.classList.contains("answer")) {
-    div.innerHTML = cards[num].perfekt;
+  button.classList.toggle("answer");
+  if (button.classList.contains("answer")) {
+    button.innerHTML = cards[num].perfekt;
     eng.textContent = cards[num].romanized;
     num += 1;
   } else {
-    div.innerHTML = cards[num].letter;
+    button.innerHTML = cards[num].letter;
     eng.textContent = "";
   }
   if (num === cards.length) {
@@ -47,10 +59,10 @@ function shuffleCards(a) {
     const j = Math.floor(Math.random() * (i + 1));
     [a[i], a[j]] = [a[j], a[i]];
   }
-  div.classList.remove("answer");
+  button.classList.remove("answer");
   eng.textContent = "";
   num = 0;
-  div.textContent = cards[num].letter;
+  button.textContent = cards[num].letter;
 }
 
 var cards = [
@@ -65,19 +77,104 @@ var cards = [
     romanized: "(B as in boy)"
   },
   {
-    letter: "ב",
-    perfekt: "ב Beth",
-    romanized: "(B as in boy)"
+    letter: "ג",
+    perfekt: "ג Gimel",
+    romanized: "(G as in green)"
   },
   {
-    letter: "ב",
-    perfekt: "ב Beth",
-    romanized: "(B as in boy)"
+    letter: "ד",
+    perfekt: "ד Daleth",
+    romanized: "(D as in door)"
   },
   {
-    letter: "ב",
-    perfekt: "ב Beth",
-    romanized: "(B as in boy)"
+    letter: "ה",
+    perfekt: "ה He",
+    romanized: "(H as in high)"
+  },
+  {
+    letter: "ו",
+    perfekt: "ו Vav",
+    romanized: "(V as in valid)"
+  },
+  {
+    letter: "ז",
+    perfekt: "ז Zayin",
+    romanized: "(Z as in zoo)"
+  },
+  {
+    letter: "ח",
+    perfekt: "ח Heth",
+    romanized: "(CH/H as in hole)"
+  },
+  {
+    letter: "ט",
+    perfekt: "ט Teth",
+    romanized: "(T as in telephone)"
+  },
+  {
+    letter: "י",
+    perfekt: "י Yod",
+    romanized: "(Y as in yellow)"
+  },
+  {
+    letter: "כ",
+    perfekt: "כ Kaph",
+    romanized: "(K as in book)"
+  },
+  {
+    letter: "ל",
+    perfekt: "ל Lamed",
+    romanized: "(L as in lemon)"
+  },
+  {
+    letter: "מ",
+    perfekt: "מ Mem",
+    romanized: "(M in mother)"
+  },
+  {
+    letter: "נ",
+    perfekt: "נ Nun",
+    romanized: "(N as in cotton)"
+  },
+  {
+    letter: "ס",
+    perfekt: "ס Samekh",
+    romanized: "(S as in ski)"
+  },
+  {
+    letter: "ע",
+    perfekt: "ע Ayin",
+    romanized: "(A as in America)"
+  },
+  {
+    letter: "פ",
+    perfekt: "פ Pe",
+    romanized: "(P as in pony)"
+  },
+  {
+    letter: "צ",
+    perfekt: "צ Sadhe",
+    romanized: "(S/TZ/ZZ as pizza)"
+  },
+  {
+    letter: "ק",
+    perfekt: "ק Qoph",
+    romanized: "(K as in pink)"
+  },
+  {
+    letter: "ר",
+    perfekt: "ר Resh",
+    romanized: "(R as in room)"
+  },
+  {
+    letter: "ש",
+    perfekt: "ש Shin",
+    romanized: "(SH as in sugar)"
+  },
+  {
+    letter: "ת",
+    perfekt: "ת Tav",
+    romanized: "(T as in team)"
   }
 ];
 

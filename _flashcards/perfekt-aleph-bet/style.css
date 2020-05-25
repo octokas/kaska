@@ -104,6 +104,7 @@ button {
   letter-spacing: 1px;
   outline: none;
   margin-right: 50px;
+  max-height: 36px;
 }
 
 button:hover, select:hover, button.select:hover {
@@ -192,7 +193,7 @@ button.select {
     z-index: 3;
 }
 
-#selected-value, button.shuffle
+#selected-value, button.shuffle, button.aleph-order
 {
     font-size: 16px;
     line-height: 1;

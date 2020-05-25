@@ -1,6 +1,6 @@
 var num = 0;
 var shuffle = document.querySelector(".shuffle");
-var div = document.querySelector("#card");
+var button = document.querySelector("#card");
 var eng = document.querySelector("#trans");
 var instr = document.querySelector("#instr").innerHTML = "Please use either the <b><u>up</u></b> and <b><u>down</u></b> arrow keys, OR use the <b><u>left</u></b> and <b><u>right</u></b> arrow keys to continue through the deck.";
 
@@ -11,38 +11,38 @@ document.addEventListener("keydown", event => {
   } else if (keyName === "ArrowDown") {
     checkAnswer();
   } else if (keyName === "ArrowLeft") {
-    if (div.classList.contains("answer")) {
-      div.classList.remove("answer");
+    if (button.classList.contains("answer")) {
+      button.classList.remove("answer");
     }
     if (num > 0) {
       num -= 1;
     }
-    div.innerHTML = cards[num].letter;
+    button.innerHTML = cards[num].letter;
     eng.textContent = "";
   } else if (keyName === "ArrowUp") {
-    if (div.classList.contains("answer")) {
-      div.classList.remove("answer");
+    if (button.classList.contains("answer")) {
+      button.classList.remove("answer");
     }
     if (num > 0) {
       num -= 1;
     }
-    div.innerHTML = cards[num].letter;
+    button.innerHTML = cards[num].letter;
     eng.textContent = "";
   }
 });
 
-div.addEventListener("click", function() {
+button.addEventListener("click", function() {
   checkAnswer();
 });
 
 function checkAnswer() {
-  div.classList.toggle("answer");
-  if (div.classList.contains("answer")) {
-    div.innerHTML = cards[num].perfekt;
+  button.classList.toggle("answer");
+  if (button.classList.contains("answer")) {
+    button.innerHTML = cards[num].perfekt;
     eng.textContent = cards[num].romanized;
     num += 1;
   } else {
-    div.innerHTML = cards[num].letter;
+    button.innerHTML = cards[num].letter;
     eng.textContent = "";
   }
   if (num === cards.length) {
@@ -59,10 +59,10 @@ function shuffleCards(a) {
     const j = Math.floor(Math.random() * (i + 1));
     [a[i], a[j]] = [a[j], a[i]];
   }
-  div.classList.remove("answer");
+  button.classList.remove("answer");
   eng.textContent = "";
   num = 0;
-  div.textContent = cards[num].letter;
+  button.textContent = cards[num].letter;
 }
 
 var cards = [

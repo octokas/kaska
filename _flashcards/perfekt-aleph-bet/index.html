@@ -5,12 +5,75 @@
   <title>Kaska's Perfekt Aleph-Bet Flashcards</title>
   <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">-->
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/fontawesome.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
 
 </head>
 <body>
 <!-- partial:index.partial.html -->
 <h1>
-  Perfekt Aleph-Bet Flashcards<button class="shuffle">Shuffle</button></h1>
+  Perfekt Aleph-Bet Flashcards
+  <button class="shuffle">Shuffle</button>
+  <button class="select">
+      <div id="select-box">
+        <input type="checkbox" id="options-view-button">
+          <div id="select-button" class="brd">
+            <div id="selected-value">
+              <span>Learn More</span>
+            </div>
+            <div id="chevrons">
+                <i class="fas fa-chevron-up"></i>
+                <i class="fas fa-chevron-down"></i>
+                    </div>
+            </div>
+            <div id="options">
+                <div class="option">
+                  <input class="s-c top" type="radio" name="aleph-bet" value="codepen">
+                  <input class="s-c bottom" type="radio" name="aleph-bet" value="codepen">
+                  <i class="fab fa">א</i>
+                  <span class="label">Aleph</span>
+                  <!--<span class="opt-val">א Aleph</span> -->
+                </div>
+                <div class="option">
+                    <input class="s-c top" type="radio" name="aleph-bet" value="dribbble">
+                    <input class="s-c bottom" type="radio" name="aleph-bet" value="dribbble">
+                    <i class="fab fa">ב</i>
+                    <span class="label">Beth</span>
+                    <!--<span class="opt-val">ב Beth</span>-->
+                </div>
+                <div class="option">
+                    <input class="s-c top" type="radio" name="aleph-bet" value="behance">
+                    <input class="s-c bottom" type="radio" name="aleph-bet" value="behance">
+                    <i class="fab fa">ג</i>
+                    <span class="label">Daleth</span>
+                    <!--<span class="opt-val">ד Daleth</span>-->
+                </div>
+                <!--<div class="option">
+                    <input class="s-c top" type="radio" name="aleph-bet" value="hackerrank">
+                    <input class="s-c bottom" type="radio" name="aleph-bet" value="hackerrank">
+                    <i class="fab fa">ד</i>
+                    <span class="label">HackerRank</span>
+                    <span class="opt-val">HackerRank</span>
+                </div>
+                <div class="option">
+                    <input class="s-c top" type="radio" name="aleph-bet" value="stackoverflow">
+                    <input class="s-c bottom" type="radio" name="aleph-bet" value="stackoverflow">
+                    <i class="fab fa-stack-overflow"></i>
+                    <span class="label">StackOverflow</span>
+                    <span class="opt-val">StackOverflow</span>
+                </div>
+                <div class="option">
+                    <input class="s-c top" type="radio" name="aleph-bet" value="freecodecamp">
+                    <input class="s-c bottom" type="radio" name="aleph-bet" value="freecodecamp">
+                    <i class="fab fa-free-code-camp"></i>
+                    <span class="label">FreeCodeCamp</span>
+                    <span class="opt-val">FreeCodeCamp</span>
+                </div>-->
+                <div id="option-bg"></div>
+        </div>
+    </div>
+  </button>
+</h1>
 <p id="instr"></p>
 <div id="card" class="unselectable">
   Schlafen

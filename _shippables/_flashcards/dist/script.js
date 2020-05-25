@@ -6,7 +6,7 @@ var esContent = document.getElementById('flashcard--content_es');
 
 document.addEventListener('DOMContentLoaded', function(){
 	
-	$.getJSON("/Users/kaska/Development/kaska/_shippables/_flashcards/sample.xml", function(data) {
+	$.getJSON("https://kaska.netlify.com/_shippables/_flashcards/sample.xml", function(data) {
 		vocabWords = data.feed.entry;
 		numVocabWords = vocabWords.length;
 		refresh();

@@ -2,7 +2,7 @@ var num = 0;
 var shuffle = document.querySelector(".shuffle");
 var button = document.querySelector("#card");
 var eng = document.querySelector("#trans");
-var instr = document.querySelector("#instr").innerHTML = "Please use either the <b><u>up</u></b> and <b><u>down</u></b> arrow keys, OR use the <b><u>left</u></b> and <b><u>right</u></b> arrow keys to continue through the deck.";
+var instr = document.querySelector("#instr").innerHTML = "Please use either the <b><u>up</u></b> and <b><u>down</u></b> arrow keys, OR use the <b><u>left</u></b> and <b><u>right</u></b> arrow keys to continue through the deck, OR simply <b><u>click</u></b> through the cards.";
 
 document.addEventListener("keydown", event => {
   const keyName = event.key;

@@ -6,11 +6,13 @@ var esContent = document.getElementById('flashcard--content_es');
 
 document.addEventListener('DOMContentLoaded', function(){
 	
-	$.getJSON("_shippables/_flashcards/sample", function(data) {
-		vocabWords = data.feed.entry;
-		numVocabWords = vocabWords.length;
-		refresh();
-	});
+	// $.getJSON("https://kaska.netlify.app/_shippables/_flashcards/sample", function(data) {
+	// 	vocabWords = data.feed.entry;
+	// 	numVocabWords = vocabWords.length;
+	// 	refresh();
+	// });
+
+	
 });
 
 flashcard.addEventListener('click', function() {

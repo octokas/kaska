@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"); 
+
+#card {
+  height: 200px;
+  width: 400px;
+  background: white;
+  margin: 100px auto 50px auto;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+  border-radius: 10px;
+  font-size: 40px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  transition: all 1.6s;
+  -webkit-transition: background 0.6s;
+  -moz-transition: background 0.6s;
+}
+
+body {
+  background: #89b6a5;
+  margin: 0;
+  font-family: 'Playfair Display';
+  color: #6a706e;
+}
+
+h1 {
+  background: #4c3b4d;
+  color: #c9eddc;
+  padding: 40px;
+  font-weight: normal;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.answer {
+  color: #4c3b4d;
+}
+
+#trans {
+  text-align: center;
+  font-size: 1.8em;
+  font-style: italic;
+  color: whitesmoke;
+  opacity: 0.7;
+}
+
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+button {
+  float: right;
+  border: none;
+  background: #c9eddc;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 10px;
+  letter-spacing: 1px;
+  outline: none;
+  margin-right: 50px;
+}
+
+button:hover {
+  background: white;
+  color: #4c3b4d;
+}

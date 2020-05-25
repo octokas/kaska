@@ -40,6 +40,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("assets");
   eleventyConfig.addPassthroughCopy("admin");
   eleventyConfig.addPassthroughCopy("_fancy");
+  eleventyConfig.addPassthroughCopy("_shippables");
 
   /* Markdown Overrides */
   let markdownLibrary = markdownIt({

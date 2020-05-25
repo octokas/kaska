@@ -35,7 +35,7 @@ label {
   justify-content: center; /* align horizontal */
   align-items: center; /* align vertical */
   border-radius: 10px;
-  font-size: 10em;
+  font-size: 7.5em;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
   transition: all 1.6s;
   -webkit-transition: background 0.6s;
@@ -77,8 +77,11 @@ h1 {
   font-size: 1.4em;
   text-align: center;
   width: 100%;
-  max-width: 80vw;
+  /* max-width: 80vw; */
+  max-width: 88vw;
   margin: 0 auto;
+    margin-top: -20px;
+    margin-bottom: 20px;
   padding-top: 12vh;
   padding-bottom: 0px;
   padding-left: 12px;
@@ -564,3 +567,102 @@ input[type="radio"]
     background-color: #89b6a5;
     border-radius: 0 0 4px 4px;
 }
+
+#extras {
+    font-size: 1.4em;
+    color: #4c3b4d;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    /* max-width: 500px; */
+    max-width: 55vw;
+}
+
+/* #extras::before {
+    content: "Hidden Details";
+} */
+
+a {
+    text-emphasis: none;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4c3b4d;
+}
+
+#xaleph, #xbeth {
+    display: none;
+}
+
+h2.more-info {
+    margin-left: 1em;
+    color: #4c3b4d;
+    text-decoration: underline;
+}
+
+ul.alpha {
+    list-style-type: none;
+    text-align: left !important;
+}
+
+div.tabs {
+    text-align: left !important;
+}
+
+.rTable {
+    display: block;
+    width: 100%;
+    max-width: 88vw;
+    margin: 0 auto;
+    text-align: left !important;
+ }
+ .rTableHeading, .rTableBody, .rTableFoot, .rTableRow{
+    clear: both;
+ }
+ .rTableHead, .rTableFoot{
+    background-color: rgb(244, 244, 244, 0.7);
+    font-size: 1.2em;
+    padding-bottom: 12px;
+    color: #4c3b4d;
+    font-weight: lighter;
+ }
+ .rTableCell, .rTableHead {
+    border: 0px solid #6a706e;
+    float: left;
+    min-height: 30px;
+    overflow: hidden;
+    padding: 3px 1.8%;
+    width: 44%;
+    height: 100%;
+ }
+ .rTable:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+ }
+
+.resource-image {
+     width: 100%;
+     max-width: 200px;
+ }
+
+ .narrower {
+     width: 24%;
+ }
+
+ .wider {
+     width: 54%;
+ }
+
+ .video {
+     width: 100%;
+     max-width:500px;
+     height: auto;
+     min-height: 260px;
+     text-align: center;
+ }

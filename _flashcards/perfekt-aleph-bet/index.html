@@ -15,11 +15,12 @@
   Perfekt Aleph-Bet Flashcards
   <button class="shuffle">Shuffle</button>
   <button class="aleph-order">Aleph Order</button>
-  <button class="select">
-      <div id="select-box">
+  <!-- <button class="xtras">Learn More</button> -->
+  <!-- <button class="select">
+      <div id="select-extras">
         <input type="checkbox" id="options-view-button">
           <div id="select-button" class="brd">
-            <div id="selected-value">
+            <div id="selected-value" value="99">
               <span>Learn More</span>
             </div>
             <div id="chevrons">
@@ -27,59 +28,49 @@
                 <i class="fas fa-chevron-down"></i>
                     </div>
             </div>
-            <div id="options">
-                <div class="option">
-                  <input class="s-c top" type="radio" name="aleph-bet" value="codepen">
-                  <input class="s-c bottom" type="radio" name="aleph-bet" value="codepen">
-                  <i class="fab fa">א</i>
-                  <span class="label">Aleph</span>
-                  <!--<span class="opt-val">א Aleph</span> -->
-                </div>
-                <div class="option">
-                    <input class="s-c top" type="radio" name="aleph-bet" value="dribbble">
-                    <input class="s-c bottom" type="radio" name="aleph-bet" value="dribbble">
-                    <i class="fab fa">ב</i>
-                    <span class="label">Beth</span>
-                    <!--<span class="opt-val">ב Beth</span>-->
-                </div>
-                <div class="option">
-                    <input class="s-c top" type="radio" name="aleph-bet" value="behance">
-                    <input class="s-c bottom" type="radio" name="aleph-bet" value="behance">
-                    <i class="fab fa">ג</i>
-                    <span class="label">Daleth</span>
-                    <!--<span class="opt-val">ד Daleth</span>-->
-                </div>
-                <!--<div class="option">
-                    <input class="s-c top" type="radio" name="aleph-bet" value="hackerrank">
-                    <input class="s-c bottom" type="radio" name="aleph-bet" value="hackerrank">
-                    <i class="fab fa">ד</i>
-                    <span class="label">HackerRank</span>
-                    <span class="opt-val">HackerRank</span>
-                </div>
-                <div class="option">
-                    <input class="s-c top" type="radio" name="aleph-bet" value="stackoverflow">
-                    <input class="s-c bottom" type="radio" name="aleph-bet" value="stackoverflow">
-                    <i class="fab fa-stack-overflow"></i>
-                    <span class="label">StackOverflow</span>
-                    <span class="opt-val">StackOverflow</span>
-                </div>
-                <div class="option">
-                    <input class="s-c top" type="radio" name="aleph-bet" value="freecodecamp">
-                    <input class="s-c bottom" type="radio" name="aleph-bet" value="freecodecamp">
-                    <i class="fab fa-free-code-camp"></i>
-                    <span class="label">FreeCodeCamp</span>
-                    <span class="opt-val">FreeCodeCamp</span>
-                </div>-->
+            <div id="options" type="select">
+                <a class="option" href="#aleph">
+                  <div class="option" id="aleph" type="option">
+                      <input class="s-c top selector" type="radio" name="aleph" value="0">
+                      <input class="s-c bottom selector" type="radio" name="aleph" value="0">
+                      <i class="fab fa">א</i>
+                      <span class="label">Aleph</span>
+                      <span class="opt-val">א Aleph</span>
+                  </div>
+                </a>
+                <a class="option" href="#beth">
+                  <div class="option" id="beth" type="option">
+                      <input class="s-c top selector" type="radio" name="beth" value="dribbble">
+                      <input class="s-c bottom selector" type="radio" name="beth" value="dribbble">
+                      <i class="fab fa">ב</i>
+                      <span class="label">Beth</span>
+                      <span class="opt-val">ב Beth</span>
+                  </div>
+                </a>
+                <a class="option" href="#daleth">
+                  <div class="option" id="daleth" type="option">
+                      <input class="s-c top selector" type="radio" name="daleth" value="behance">
+                      <input class="s-c bottom selector" type="radio" name="daleth" value="behance">
+                      <i class="fab fa">ג</i>
+                      <span class="label">Daleth</span>
+                      <span class="opt-val">ד Daleth</span>
+                  </div>
+                </a>
                 <div id="option-bg"></div>
         </div>
     </div>
-  </button>
+  </button> -->
 </h1>
 <p id="instr"></p>
 <div id="card" class="unselectable">
   Schlafen
 </div>
 <div id="trans"><em></em></div>
+<div id="extras">
+    <!-- <h1 class="xtras" class="hidden" id="xaleph">Aleph</h1>
+    <h1 class="xtras" class="hidden" id="xbeth">Beth</h1> -->
+</div><div id="tabs"></div><br><br>
+
 <!-- partial -->
   <script  src="./script.js"></script>
 

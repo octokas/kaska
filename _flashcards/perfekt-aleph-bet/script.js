@@ -7,7 +7,18 @@ document.addEventListener("keydown", event => {
   const keyName = event.key;
   if (keyName === "ArrowRight") {
     checkAnswer();
+  } else if (keyName === "ArrowDown") {
+    checkAnswer();
   } else if (keyName === "ArrowLeft") {
+    if (div.classList.contains("answer")) {
+      div.classList.remove("answer");
+    }
+    if (num > 0) {
+      num -= 1;
+    }
+    div.innerHTML = cards[num].letter;
+    eng.textContent = "";
+  } else if (keyName === "ArrowUp") {
     if (div.classList.contains("answer")) {
       div.classList.remove("answer");
     }

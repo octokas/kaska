@@ -597,7 +597,7 @@ a:hover {
 }
 
 h2.more-info {
-    margin-left: 1em;
+    /* margin-left: 1em; */
     color: #4c3b4d;
     text-decoration: underline;
 }
@@ -607,8 +607,11 @@ ul.alpha {
     text-align: left !important;
 }
 
-div.tabs {
+div#tabs {
     text-align: left !important;
+    width:100%;
+    max-width: 54vw;
+    margin: 0 auto;
 }
 
 .rTable {
@@ -617,6 +620,7 @@ div.tabs {
     max-width: 88vw;
     margin: 0 auto;
     text-align: left !important;
+    background-color: #4c3b4d;
  }
  .rTableHeading, .rTableBody, .rTableFoot, .rTableRow{
     clear: both;
@@ -656,13 +660,13 @@ div.tabs {
  }
 
  .wider {
-     width: 54%;
+    width: 68.8%;
  }
 
  .video {
      width: 100%;
-     max-width:500px;
+     max-width:540px;
      height: auto;
-     min-height: 260px;
+     min-height: 304px;
      text-align: center;
  }

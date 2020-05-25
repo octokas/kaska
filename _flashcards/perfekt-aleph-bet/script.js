@@ -32,6 +32,7 @@ document.addEventListener("keydown", event => {
     button.innerHTML = cards[num].letter;
     eng.textContent = "";
     xtras.textContent = "";
+    tabs.innerHTML = "";
   }
 });
 
@@ -51,6 +52,7 @@ function checkAnswer() {
     button.innerHTML = cards[num].letter;
     eng.textContent = "";
     xtras.textContent = "";
+    tabs.innerHTML = "";
   }
   if (num === cards.length) {
     num = 0;
@@ -70,6 +72,7 @@ function shuffleCards(a) {
   button.classList.remove("answer");
   eng.textContent = "";
   xtras.textContent = "";
+  tabs.innerHTML = "";
   num = 0;
   button.textContent = cards[num].letter;
 };
@@ -81,7 +84,7 @@ var cards = [
     romanized: "(A as in Father)",
     value: 0,
     highlights: "We are to be joyful when worshipping HaShem. Think of this letter as the dancing A in <em><u>'Adonai</u>'</em>.",
-    tabular: '<h2 class="more-info">More Resources</h2><div class="rTable"><div class="rTableRow"><div class="rTableHead narrower">Graphics &amp; Visuals</div><div class="rTableHead wider">Videos &amp; Sounds</div></div><div class="rTableRow"><div class="rTableCell narrower"><img class="resource-image" src="images/gimel_picture.png" /></div><div class="rTableCell"><iframe class="video" src="https://www.youtube.com/embed/jrzzjdqrW6U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><span><a href="https://hebrewtoday.com/alphabet/the-letter-gimmel-%d7%92/">HT -> Gimal/Gimmel</a></span></div></div>',
+    tabular: '<h2 class="more-info">More Resources</h2><div class="rTable"><div class="rTableRow"><div class="rTableHead narrower">Graphics &amp; Visuals</div><div class="rTableHead wider">Videos &amp; Sounds</div></div><div class="rTableRow"><div class="rTableCell narrower"><img class="resource-image" src="images/gimel_picture.png" /><br><span><a style="color:whitesmoke; text-decoration:underline;" href="https://hebrewtoday.com/alphabet/the-letter-gimmel-%d7%92/">HT -> Gimal/Gimmel</a></span></div><div class="rTableCell wider"><iframe class="video" src="https://www.youtube.com/embed/jrzzjdqrW6U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>',
     seaseme: "https://youtu.be/rerbKUIcGhs"
   },
   {
@@ -273,6 +276,7 @@ function alephOrder(b) {
   button.classList.remove("answer");
   eng.textContent = "";
   xtras.textContent = "";
+  tabs.innerHTML = "";
   num = 0;
   button.textContent = cards[num].letter;
 };

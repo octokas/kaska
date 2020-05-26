@@ -1,0 +1,8 @@
+* likes more info avail in header
+* origen spacing and lines for compartments and disconnected lines still feels flowy
+* on scroll lots of iages and not too text heavy
+
+* southern press doesn't use as good of use of the space and layout, because it's got too much stuff on one section of the page...
+* eye doesn't know where to go
+
+* for homepage on mobile make welcome landing screen with a left scroll to the image (reverse horizontal) and a disclaimer about this being best viewed on desktop

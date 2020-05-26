@@ -1,5 +1,43 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"); 
 
+@font-face {
+    font-family: "Ezra";
+    src: url("fonts/ezra-sil-font/EzraSil-Po0B.ttf") format("ttf");
+    }
+
+@font-face {
+    font-family: "Jerusalem";
+    src: url("fonts/jerusalem-font/Jerusalem-K9xW.ttf") format("ttf");
+    }
+@font-face {
+    font-family: "Jerusalem Bold";
+    src: url("fonts/jerusalem-font/JerusalemBold-2A8W.ttf") format("ttf");
+    }
+@font-face {
+    font-family: "Jerusalem Italic";
+    src: url("fonts/jerusalem-font/JerusalemItalic-vl8Z.ttf") format("ttf");
+    }
+@font-face {
+    font-family: "Jerusalem Shadow";
+    src: url("fonts/jerusalem-font/JerusalemShadow-wnY2.ttf") format("ttf");
+    }
+@font-face {
+    font-family: "Accordance";
+    src: url("fonts/Accordance_Font/Accordance.ttf") format("ttf");
+    }
+@font-face {
+    font-family: "Accordance Bold";
+    src: url("fonts/Accordance_Font/AccordanceBold.ttf") format("ttf");
+    }
+@font-face {
+    font-family: "Accordance Bold Italic";
+    src: url("fonts/Accordance_Font/AccordanceBoldItalic.ttf") format("ttf");
+    }
+@font-face {
+    font-family: "Accordance Italic";
+    src: url("fonts/Accordance_Font/AccordanceItalic.ttf") format("ttf");
+    }
+
 * {
   user-select: none;
 }
@@ -35,6 +73,7 @@ label {
   justify-content: center; /* align horizontal */
   align-items: center; /* align vertical */
   border-radius: 10px;
+  font-family: "Accordance";
   font-size: 7.5em;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
   transition: all 1.6s;
@@ -68,17 +107,18 @@ h1 {
   font-size: 1.8em;
   font-style: italic;
   color: whitesmoke;
+  color: #454947;
   opacity: 0.7;
 }
 
 #instr {
   color: #4c3b4d;
   opacity: 0.7em;
-  font-size: 1.4em;
+  font-size: 1.6em;
   text-align: center;
   width: 100%;
   /* max-width: 80vw; */
-  max-width: 88vw;
+  max-width: 72vw;
   margin: 0 auto;
     margin-top: -20px;
     margin-bottom: 20px;
@@ -171,7 +211,7 @@ button.select {
     margin: 100px auto 0 auto;
 }
 
-#select-button,
+#select-button
 {
     position: relative;
     height: 16px;
@@ -571,6 +611,7 @@ input[type="radio"]
 #extras {
     font-size: 1.4em;
     color: #4c3b4d;
+    /* color: #454947; */
     margin: 0 auto;
     margin-top: 20px;
     text-align: center;
@@ -670,3 +711,11 @@ div#tabs {
      min-height: 304px;
      text-align: center;
  }
+
+ div#card.unselectable {
+     font-size: 14em;
+ }
+
+ div#card.unselectable.smaller {
+    font-size: 5em;
+}

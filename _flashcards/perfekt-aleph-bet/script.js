@@ -7,6 +7,7 @@ var instr = document.querySelector("#instr").innerHTML = "Please use either the 
 var xtras = document.querySelector("#extras");
 var tabs = document.querySelector("#tabs");
 
+
 document.addEventListener("keydown", event => {
   const keyName = event.key;
   if (keyName === "ArrowRight") {
@@ -42,6 +43,7 @@ button.addEventListener("click", function() {
 
 function checkAnswer() {
   button.classList.toggle("answer");
+  button.classList.toggle("smaller");
   if (button.classList.contains("answer")) {
     button.innerHTML = cards[num].perfekt;
     eng.textContent = cards[num].romanized;
@@ -84,17 +86,17 @@ var cards = [
     romanized: "(A as in Father)",
     value: 0,
     highlights: "We are to be joyful when worshipping HaShem. Think of this letter as the dancing A in <em><u>'Adonai</u>'</em>.",
-    tabular: '<h2 class="more-info">More Resources</h2><div class="rTable"><div class="rTableRow"><div class="rTableHead narrower">Graphics &amp; Visuals</div><div class="rTableHead wider">Videos &amp; Sounds</div></div><div class="rTableRow"><div class="rTableCell narrower"><img class="resource-image" src="images/gimel_picture.png" /><br><span><a style="color:whitesmoke; text-decoration:underline;" href="https://hebrewtoday.com/alphabet/the-letter-gimmel-%d7%92/">HT -> Gimal/Gimmel</a></span></div><div class="rTableCell wider"><iframe class="video" src="https://www.youtube.com/embed/jrzzjdqrW6U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>',
+    tabular: '<br><br><h2 class="more-info">More Resources</h2><div class="rTable"><div class="rTableRow"><div class="rTableHead narrower">Graphics &amp; Visuals</div><div class="rTableHead wider">Videos &amp; Sounds</div></div><div class="rTableRow"><div class="rTableCell narrower"><img class="resource-image" src="images/gimel_picture.png" /><br><span><a style="color:whitesmoke; text-decoration:underline;" href="https://hebrewtoday.com/alphabet/the-letter-alef-%d7%90/">HT -> Aleph</a></span><br><span><a style="color:whitesmoke; text-decoration:underline;" href="https://www.chabad.org/multimedia/video_cdo/aid/705822/jewish/The-Aleph.htm">KabAlefBet -> Aleph</a></span></div><div class="rTableCell wider"><iframe class="video" src="https://www.youtube.com/embed/rerbKUIcGhs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>',
     seaseme: "https://youtu.be/rerbKUIcGhs"
   },
   {
     letter: "ב",
-    perfekt: "ב Beyt",
+    perfekt: "ב Beyt/Beth",
     romanized: "(B as in boy)",
     value: 1,
     highlights: "In the game rock-paper-scissors-spock, this letter looks like the lizard; which is a favorite of most <em><u>boys</u></em>.",
-    tabular: '<h2>More Resources</h2><div class="rTable"><div class="rTableRow"><div class="rTableHead"><strong>Name</strong></div><div class="rTableHead"><span style="font-weight: bold;">Telephone</span></div><div class="rTableHead">&nbsp;</div></div><div class="rTableRow"><div class="rTableCell">John</div><div class="rTableCell"><a href="tel:0123456785">0123 456 785</a></div><div class="rTableCell"><img src="images/check.gif" alt="checked" /></div></div><div class="rTableRow"><div class="rTableCell">Cassie</div><div class="rTableCell"><a href="tel:9876532432">9876 532 432</a></div><div class="rTableCell"><img src="images/check.gif" alt="checked" /></div></div></div>',
-    seaseme: "https://youtu.be/rerbKUIcGhs"
+    tabular: '<br><br><h2 class="more-info">More Resources</h2><div class="rTable"><div class="rTableRow"><div class="rTableHead narrower">Graphics &amp; Visuals</div><div class="rTableHead wider">Videos &amp; Sounds</div></div><div class="rTableRow"><div class="rTableCell narrower"><img class="resource-image" src="images/gimel_picture.png" /><br><span><a style="color:whitesmoke; text-decoration:underline;" href="https://hebrewtoday.com/alphabet/%d7%91/">HT -> Beyt/Beth</a></span><br><span><a style="color:whitesmoke; text-decoration:underline;" href="https://www.chabad.org/multimedia/video_cdo/aid/725011/jewish/The-Bet.htm">Chabad -> Beyt/Beth</a></span></div><div class="rTableCell wider"><iframe class="video" src="https://www.youtube.com/embed/YzjHjXe-2XU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>',
+    seaseme: "https://youtu.be/YzjHjXe-2XU"
   },
   {
     letter: "ג",
@@ -102,7 +104,7 @@ var cards = [
     romanized: "(G as in green)",
     value: 2,
     highlights: "There's no easy way to remember this letter is associated with Camel, if you are an English native... If, however, you are familiar with horses, you could look at it as the shoe of a camel.",
-    tabular: '<h2>Phone numbers</h2><div class="rTable"><div class="rTableRow"><div class="rTableHead"><strong>Name</strong></div><div class="rTableHead"><span style="font-weight: bold;">Telephone</span></div><div class="rTableHead">&nbsp;</div></div><div class="rTableRow"><div class="rTableCell">John</div><div class="rTableCell"><a href="tel:0123456785">0123 456 785</a></div><div class="rTableCell"><img src="images/check.gif" alt="checked" /></div></div><div class="rTableRow"><div class="rTableCell">Cassie</div><div class="rTableCell"><a href="tel:9876532432">9876 532 432</a></div><div class="rTableCell"><img src="images/check.gif" alt="checked" /></div></div></div>',
+    tabular: '<br><br><h2 class="more-info">More Resources</h2><div class="rTable"><div class="rTableRow"><div class="rTableHead narrower">Graphics &amp; Visuals</div><div class="rTableHead wider">Videos &amp; Sounds</div></div><div class="rTableRow"><div class="rTableCell narrower"><img class="resource-image" src="images/gimel_picture.png" /><br><span><a style="color:whitesmoke; text-decoration:underline;" href="https://hebrewtoday.com/alphabet/the-letter-gimmel-%d7%92/">HT -> Gimal/Gimmel</a></span><br><span><a style="color:whitesmoke; text-decoration:underline;" href="https://www.chabad.org/kabbalah/article_cdo/aid/380533/jewish/The-Letter-Gimel.htm">Chabad -> Gimal/Gimmel</a></span></div><div class="rTableCell wider"><iframe class="video" src="https://www.youtube.com/embed/jrzzjdqrW6U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>',
     seaseme: "https://youtu.be/rerbKUIcGhs"
   },
   {
@@ -111,6 +113,7 @@ var cards = [
     romanized: "(D as in door)",
     value: 3,
     highlights: "",
+    tabular: '<br><br><h2 class="more-info">More Resources</h2><div class="rTable"><div class="rTableRow"><div class="rTableHead narrower">Graphics &amp; Visuals</div><div class="rTableHead wider">Videos &amp; Sounds</div></div><div class="rTableRow"><div class="rTableCell narrower"><img class="resource-image" src="images/gimel_picture.png" /><br><span><a style="color:whitesmoke; text-decoration:underline;" href="https://hebrewtoday.com/alphabet/the-letter-dalet-%d7%93/">HT -> Dalet</a></span><br><span><a style="color:whitesmoke; text-decoration:underline;" href="https://www.chabad.org/kabbalah/article_cdo/aid/380533/jewish/The-Letter-Gimel.htm">Chabad -> Gimal/Gimmel</a></span></div><div class="rTableCell wider"><iframe class="video" src="https://www.youtube.com/embed/jrzzjdqrW6U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>',
     seaseme: ""
   },
   {
@@ -119,6 +122,7 @@ var cards = [
     romanized: "(H as in high)",
     value: 4,
     highlights: "",
+    tabular: '<br><br><h2 class="more-info">More Resources</h2><div class="rTable"><div class="rTableRow"><div class="rTableHead narrower">Graphics &amp; Visuals</div><div class="rTableHead wider">Videos &amp; Sounds</div></div><div class="rTableRow"><div class="rTableCell narrower"><img class="resource-image" src="images/gimel_picture.png" /><br><span><a style="color:whitesmoke; text-decoration:underline;" href="https://hebrewtoday.com/alphabet/the-letter-gimmel-%d7%92/">HT -> Gimal/Gimmel</a></span><br><span><a style="color:whitesmoke; text-decoration:underline;" href="https://www.chabad.org/kabbalah/article_cdo/aid/380533/jewish/The-Letter-Gimel.htm">Chabad -> Gimal/Gimmel</a></span></div><div class="rTableCell wider"><iframe class="video" src="https://www.youtube.com/embed/jrzzjdqrW6U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>',
     seaseme: ""
   },
   {
@@ -127,6 +131,7 @@ var cards = [
     romanized: "(V as in valid)",
     value: 5,
     highlights: "",
+    tabular: '<br><br><h2 class="more-info">More Resources</h2><div class="rTable"><div class="rTableRow"><div class="rTableHead narrower">Graphics &amp; Visuals</div><div class="rTableHead wider">Videos &amp; Sounds</div></div><div class="rTableRow"><div class="rTableCell narrower"><img class="resource-image" src="images/gimel_picture.png" /><br><span><a style="color:whitesmoke; text-decoration:underline;" href="https://hebrewtoday.com/alphabet/the-letter-gimmel-%d7%92/">HT -> Gimal/Gimmel</a></span><br><span><a style="color:whitesmoke; text-decoration:underline;" href="https://www.chabad.org/kabbalah/article_cdo/aid/380533/jewish/The-Letter-Gimel.htm">Chabad -> Gimal/Gimmel</a></span></div><div class="rTableCell wider"><iframe class="video" src="https://www.youtube.com/embed/jrzzjdqrW6U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>',
     seaseme: ""
   },
   {
@@ -135,6 +140,7 @@ var cards = [
     romanized: "(Z as in zoo)",
     value: 6,
     highlights: "",
+    tabular: '<br><br><h2 class="more-info">More Resources</h2><div class="rTable"><div class="rTableRow"><div class="rTableHead narrower">Graphics &amp; Visuals</div><div class="rTableHead wider">Videos &amp; Sounds</div></div><div class="rTableRow"><div class="rTableCell narrower"><img class="resource-image" src="images/gimel_picture.png" /><br><span><a style="color:whitesmoke; text-decoration:underline;" href="https://hebrewtoday.com/alphabet/the-letter-gimmel-%d7%92/">HT -> Gimal/Gimmel</a></span><br><span><a style="color:whitesmoke; text-decoration:underline;" href="https://www.chabad.org/kabbalah/article_cdo/aid/380533/jewish/The-Letter-Gimel.htm">Chabad -> Gimal/Gimmel</a></span></div><div class="rTableCell wider"><iframe class="video" src="https://www.youtube.com/embed/jrzzjdqrW6U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>',
     seaseme: ""
   },
   {
@@ -143,6 +149,7 @@ var cards = [
     romanized: "(CH/H as in hole)",
     value: 7,
     highlights: "",
+    tabular: '<br><br><h2 class="more-info">More Resources</h2><div class="rTable"><div class="rTableRow"><div class="rTableHead narrower">Graphics &amp; Visuals</div><div class="rTableHead wider">Videos &amp; Sounds</div></div><div class="rTableRow"><div class="rTableCell narrower"><img class="resource-image" src="images/gimel_picture.png" /><br><span><a style="color:whitesmoke; text-decoration:underline;" href="https://hebrewtoday.com/alphabet/the-letter-gimmel-%d7%92/">HT -> Gimal/Gimmel</a></span><br><span><a style="color:whitesmoke; text-decoration:underline;" href="https://www.chabad.org/kabbalah/article_cdo/aid/380533/jewish/The-Letter-Gimel.htm">Chabad -> Gimal/Gimmel</a></span></div><div class="rTableCell wider"><iframe class="video" src="https://www.youtube.com/embed/jrzzjdqrW6U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>',
     seaseme: ""
   },
   {
@@ -151,6 +158,7 @@ var cards = [
     romanized: "(T as in telephone)",
     value: 8,
     highlights: "",
+    tabular: '<br><br><h2 class="more-info">More Resources</h2><div class="rTable"><div class="rTableRow"><div class="rTableHead narrower">Graphics &amp; Visuals</div><div class="rTableHead wider">Videos &amp; Sounds</div></div><div class="rTableRow"><div class="rTableCell narrower"><img class="resource-image" src="images/gimel_picture.png" /><br><span><a style="color:whitesmoke; text-decoration:underline;" href="https://hebrewtoday.com/alphabet/the-letter-gimmel-%d7%92/">HT -> Gimal/Gimmel</a></span><br><span><a style="color:whitesmoke; text-decoration:underline;" href="https://www.chabad.org/kabbalah/article_cdo/aid/380533/jewish/The-Letter-Gimel.htm">Chabad -> Gimal/Gimmel</a></span></div><div class="rTableCell wider"><iframe class="video" src="https://www.youtube.com/embed/jrzzjdqrW6U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>',
     seaseme: ""
   },
   {
@@ -159,6 +167,7 @@ var cards = [
     romanized: "(Y as in yellow)",
     value: 9,
     highlights: "",
+    tabular: '<br><br><h2 class="more-info">More Resources</h2><div class="rTable"><div class="rTableRow"><div class="rTableHead narrower">Graphics &amp; Visuals</div><div class="rTableHead wider">Videos &amp; Sounds</div></div><div class="rTableRow"><div class="rTableCell narrower"><img class="resource-image" src="images/gimel_picture.png" /><br><span><a style="color:whitesmoke; text-decoration:underline;" href="https://hebrewtoday.com/alphabet/the-letter-gimmel-%d7%92/">HT -> Gimal/Gimmel</a></span><br><span><a style="color:whitesmoke; text-decoration:underline;" href="https://www.chabad.org/kabbalah/article_cdo/aid/380533/jewish/The-Letter-Gimel.htm">Chabad -> Gimal/Gimmel</a></span></div><div class="rTableCell wider"><iframe class="video" src="https://www.youtube.com/embed/jrzzjdqrW6U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>',
     seaseme: ""
   },
   {
@@ -167,6 +176,7 @@ var cards = [
     romanized: "(K as in book)",
     value: 10,
     highlights: "",
+    tabular: '<br><br><h2 class="more-info">More Resources</h2><div class="rTable"><div class="rTableRow"><div class="rTableHead narrower">Graphics &amp; Visuals</div><div class="rTableHead wider">Videos &amp; Sounds</div></div><div class="rTableRow"><div class="rTableCell narrower"><img class="resource-image" src="images/gimel_picture.png" /><br><span><a style="color:whitesmoke; text-decoration:underline;" href="https://hebrewtoday.com/alphabet/the-letter-gimmel-%d7%92/">HT -> Gimal/Gimmel</a></span><br><span><a style="color:whitesmoke; text-decoration:underline;" href="https://www.chabad.org/kabbalah/article_cdo/aid/380533/jewish/The-Letter-Gimel.htm">Chabad -> Gimal/Gimmel</a></span></div><div class="rTableCell wider"><iframe class="video" src="https://www.youtube.com/embed/jrzzjdqrW6U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>',
     seaseme: ""
   },
   {
@@ -175,6 +185,7 @@ var cards = [
     romanized: "(L as in lemon)",
     value: 11,
     highlights: "",
+    tabular: '<br><br><h2 class="more-info">More Resources</h2><div class="rTable"><div class="rTableRow"><div class="rTableHead narrower">Graphics &amp; Visuals</div><div class="rTableHead wider">Videos &amp; Sounds</div></div><div class="rTableRow"><div class="rTableCell narrower"><img class="resource-image" src="images/gimel_picture.png" /><br><span><a style="color:whitesmoke; text-decoration:underline;" href="https://hebrewtoday.com/alphabet/the-letter-gimmel-%d7%92/">HT -> Gimal/Gimmel</a></span><br><span><a style="color:whitesmoke; text-decoration:underline;" href="https://www.chabad.org/kabbalah/article_cdo/aid/380533/jewish/The-Letter-Gimel.htm">Chabad -> Gimal/Gimmel</a></span></div><div class="rTableCell wider"><iframe class="video" src="https://www.youtube.com/embed/jrzzjdqrW6U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>',
     seaseme: ""
   },
   {
@@ -183,6 +194,7 @@ var cards = [
     romanized: "(M in mother)",
     value: 12,
     highlights: "",
+    tabular: '<br><br><h2 class="more-info">More Resources</h2><div class="rTable"><div class="rTableRow"><div class="rTableHead narrower">Graphics &amp; Visuals</div><div class="rTableHead wider">Videos &amp; Sounds</div></div><div class="rTableRow"><div class="rTableCell narrower"><img class="resource-image" src="images/gimel_picture.png" /><br><span><a style="color:whitesmoke; text-decoration:underline;" href="https://hebrewtoday.com/alphabet/the-letter-gimmel-%d7%92/">HT -> Gimal/Gimmel</a></span><br><span><a style="color:whitesmoke; text-decoration:underline;" href="https://www.chabad.org/kabbalah/article_cdo/aid/380533/jewish/The-Letter-Gimel.htm">Chabad -> Gimal/Gimmel</a></span></div><div class="rTableCell wider"><iframe class="video" src="https://www.youtube.com/embed/jrzzjdqrW6U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>',
     seaseme: ""
   },
   {
@@ -191,6 +203,7 @@ var cards = [
     romanized: "(N as in cotton)",
     value: 13,
     highlights: "",
+    tabular: '<br><br><h2 class="more-info">More Resources</h2><div class="rTable"><div class="rTableRow"><div class="rTableHead narrower">Graphics &amp; Visuals</div><div class="rTableHead wider">Videos &amp; Sounds</div></div><div class="rTableRow"><div class="rTableCell narrower"><img class="resource-image" src="images/gimel_picture.png" /><br><span><a style="color:whitesmoke; text-decoration:underline;" href="https://hebrewtoday.com/alphabet/the-letter-gimmel-%d7%92/">HT -> Gimal/Gimmel</a></span><br><span><a style="color:whitesmoke; text-decoration:underline;" href="https://www.chabad.org/kabbalah/article_cdo/aid/380533/jewish/The-Letter-Gimel.htm">Chabad -> Gimal/Gimmel</a></span></div><div class="rTableCell wider"><iframe class="video" src="https://www.youtube.com/embed/jrzzjdqrW6U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>',
     seaseme: ""
   },
   {
@@ -199,6 +212,7 @@ var cards = [
     romanized: "(S as in ski)",
     value: 14,
     highlights: "",
+    tabular: '<br><br><h2 class="more-info">More Resources</h2><div class="rTable"><div class="rTableRow"><div class="rTableHead narrower">Graphics &amp; Visuals</div><div class="rTableHead wider">Videos &amp; Sounds</div></div><div class="rTableRow"><div class="rTableCell narrower"><img class="resource-image" src="images/gimel_picture.png" /><br><span><a style="color:whitesmoke; text-decoration:underline;" href="https://hebrewtoday.com/alphabet/the-letter-gimmel-%d7%92/">HT -> Gimal/Gimmel</a></span><br><span><a style="color:whitesmoke; text-decoration:underline;" href="https://www.chabad.org/kabbalah/article_cdo/aid/380533/jewish/The-Letter-Gimel.htm">Chabad -> Gimal/Gimmel</a></span></div><div class="rTableCell wider"><iframe class="video" src="https://www.youtube.com/embed/jrzzjdqrW6U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>',
     seaseme: ""
   },
   {
@@ -207,6 +221,7 @@ var cards = [
     romanized: "(A as in America)",
     value: 15,
     highlights: "",
+    tabular: '<br><br><h2 class="more-info">More Resources</h2><div class="rTable"><div class="rTableRow"><div class="rTableHead narrower">Graphics &amp; Visuals</div><div class="rTableHead wider">Videos &amp; Sounds</div></div><div class="rTableRow"><div class="rTableCell narrower"><img class="resource-image" src="images/gimel_picture.png" /><br><span><a style="color:whitesmoke; text-decoration:underline;" href="https://hebrewtoday.com/alphabet/the-letter-gimmel-%d7%92/">HT -> Gimal/Gimmel</a></span><br><span><a style="color:whitesmoke; text-decoration:underline;" href="https://www.chabad.org/kabbalah/article_cdo/aid/380533/jewish/The-Letter-Gimel.htm">Chabad -> Gimal/Gimmel</a></span></div><div class="rTableCell wider"><iframe class="video" src="https://www.youtube.com/embed/jrzzjdqrW6U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>',
     seaseme: ""
   },
   {
@@ -215,6 +230,7 @@ var cards = [
     romanized: "(P as in pony)",
     value: 16,
     highlights: "",
+    tabular: '<br><br><h2 class="more-info">More Resources</h2><div class="rTable"><div class="rTableRow"><div class="rTableHead narrower">Graphics &amp; Visuals</div><div class="rTableHead wider">Videos &amp; Sounds</div></div><div class="rTableRow"><div class="rTableCell narrower"><img class="resource-image" src="images/gimel_picture.png" /><br><span><a style="color:whitesmoke; text-decoration:underline;" href="https://hebrewtoday.com/alphabet/the-letter-gimmel-%d7%92/">HT -> Gimal/Gimmel</a></span><br><span><a style="color:whitesmoke; text-decoration:underline;" href="https://www.chabad.org/kabbalah/article_cdo/aid/380533/jewish/The-Letter-Gimel.htm">Chabad -> Gimal/Gimmel</a></span></div><div class="rTableCell wider"><iframe class="video" src="https://www.youtube.com/embed/jrzzjdqrW6U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>',
     seaseme: ""
   },
   {
@@ -223,6 +239,7 @@ var cards = [
     romanized: "(S/TZ/ZZ as pizza)",
     value: 17,
     highlights: "",
+    tabular: '<br><br><h2 class="more-info">More Resources</h2><div class="rTable"><div class="rTableRow"><div class="rTableHead narrower">Graphics &amp; Visuals</div><div class="rTableHead wider">Videos &amp; Sounds</div></div><div class="rTableRow"><div class="rTableCell narrower"><img class="resource-image" src="images/gimel_picture.png" /><br><span><a style="color:whitesmoke; text-decoration:underline;" href="https://hebrewtoday.com/alphabet/the-letter-gimmel-%d7%92/">HT -> Gimal/Gimmel</a></span><br><span><a style="color:whitesmoke; text-decoration:underline;" href="https://www.chabad.org/kabbalah/article_cdo/aid/380533/jewish/The-Letter-Gimel.htm">Chabad -> Gimal/Gimmel</a></span></div><div class="rTableCell wider"><iframe class="video" src="https://www.youtube.com/embed/jrzzjdqrW6U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>',
     seaseme: ""
   },
   {
@@ -231,6 +248,7 @@ var cards = [
     romanized: "(K as in pink)",
     value: 18,
     highlights: "",
+    tabular: '<br><br><h2 class="more-info">More Resources</h2><div class="rTable"><div class="rTableRow"><div class="rTableHead narrower">Graphics &amp; Visuals</div><div class="rTableHead wider">Videos &amp; Sounds</div></div><div class="rTableRow"><div class="rTableCell narrower"><img class="resource-image" src="images/gimel_picture.png" /><br><span><a style="color:whitesmoke; text-decoration:underline;" href="https://hebrewtoday.com/alphabet/the-letter-gimmel-%d7%92/">HT -> Gimal/Gimmel</a></span><br><span><a style="color:whitesmoke; text-decoration:underline;" href="https://www.chabad.org/kabbalah/article_cdo/aid/380533/jewish/The-Letter-Gimel.htm">Chabad -> Gimal/Gimmel</a></span></div><div class="rTableCell wider"><iframe class="video" src="https://www.youtube.com/embed/jrzzjdqrW6U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>',
     seaseme: ""
   },
   {
@@ -239,6 +257,7 @@ var cards = [
     romanized: "(R as in room)",
     value: 19,
     highlights: "",
+    tabular: '<br><br><h2 class="more-info">More Resources</h2><div class="rTable"><div class="rTableRow"><div class="rTableHead narrower">Graphics &amp; Visuals</div><div class="rTableHead wider">Videos &amp; Sounds</div></div><div class="rTableRow"><div class="rTableCell narrower"><img class="resource-image" src="images/gimel_picture.png" /><br><span><a style="color:whitesmoke; text-decoration:underline;" href="https://hebrewtoday.com/alphabet/the-letter-gimmel-%d7%92/">HT -> Gimal/Gimmel</a></span><br><span><a style="color:whitesmoke; text-decoration:underline;" href="https://www.chabad.org/kabbalah/article_cdo/aid/380533/jewish/The-Letter-Gimel.htm">Chabad -> Gimal/Gimmel</a></span></div><div class="rTableCell wider"><iframe class="video" src="https://www.youtube.com/embed/jrzzjdqrW6U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>',
     seaseme: ""
   },
   {
@@ -247,6 +266,7 @@ var cards = [
     romanized: "(SH as in sugar)",
     value: 20,
     highlights: "",
+    tabular: '<br><br><h2 class="more-info">More Resources</h2><div class="rTable"><div class="rTableRow"><div class="rTableHead narrower">Graphics &amp; Visuals</div><div class="rTableHead wider">Videos &amp; Sounds</div></div><div class="rTableRow"><div class="rTableCell narrower"><img class="resource-image" src="images/gimel_picture.png" /><br><span><a style="color:whitesmoke; text-decoration:underline;" href="https://hebrewtoday.com/alphabet/the-letter-gimmel-%d7%92/">HT -> Gimal/Gimmel</a></span><br><span><a style="color:whitesmoke; text-decoration:underline;" href="https://www.chabad.org/kabbalah/article_cdo/aid/380533/jewish/The-Letter-Gimel.htm">Chabad -> Gimal/Gimmel</a></span></div><div class="rTableCell wider"><iframe class="video" src="https://www.youtube.com/embed/jrzzjdqrW6U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>',
     seaseme: ""
   },
   {
@@ -255,6 +275,7 @@ var cards = [
     romanized: "(T as in team)",
     value: 21,
     highlights: "",
+    tabular: '<br><br><h2 class="more-info">More Resources</h2><div class="rTable"><div class="rTableRow"><div class="rTableHead narrower">Graphics &amp; Visuals</div><div class="rTableHead wider">Videos &amp; Sounds</div></div><div class="rTableRow"><div class="rTableCell narrower"><img class="resource-image" src="images/gimel_picture.png" /><br><span><a style="color:whitesmoke; text-decoration:underline;" href="https://hebrewtoday.com/alphabet/the-letter-gimmel-%d7%92/">HT -> Gimal/Gimmel</a></span><br><span><a style="color:whitesmoke; text-decoration:underline;" href="https://www.chabad.org/kabbalah/article_cdo/aid/380533/jewish/The-Letter-Gimel.htm">Chabad -> Gimal/Gimmel</a></span></div><div class="rTableCell wider"><iframe class="video" src="https://www.youtube.com/embed/jrzzjdqrW6U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>',
     seaseme: ""
   }
 ];
@@ -309,10 +330,15 @@ function removeClass(selector, myClass) {
     elements[i].classList.remove(myClass);
   }
 };
+var fancy = ((button.innerHTML = cards[num].letter));
+var smaller = ((button.innerHTML = cards[num].perfekt));
+console.log(fancy);
 
+addClass(fancy, "fancy");
+addClass(smaller, "smaller");
 shuffleCards(cards);
 alephOrder(cards);
-
+//addClass(fancy, "fancy");
 
 // usage examples:
 // removeClass('.class-selector', 'example-class');

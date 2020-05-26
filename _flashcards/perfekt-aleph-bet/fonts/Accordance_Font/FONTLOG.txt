@@ -1,0 +1,50 @@
+FONTLOG for the Accordance font
+
+This file provides detailed information on the Accordance Font Software.
+This information should be distributed along with the Accordance fonts
+and any derivative works.
+
+Basic Font Information
+
+Accordance is a Unicode typeface family that supports Latin, Greek, Coptic, Hebrew, Arabic, Syriac,
+and other biblically related characters, and could be expanded to support other
+scripts.
+
+This release contains the normal, Bold, Italic, and Bold Italic styles, along with a reference
+to the applicable Open Font License and this FONTLOG.
+To contribute to the project please e-mail contact@accordancebible.com.
+
+ChangeLog
+
+31 January 2020 (Drayton Benner) Accordance Font Family version 1.2
+- Added U+FDF2 "Arabic Ligature Allah Isolated Form"
+
+06 November 2018 (Drayton Benner) Accordance Font Family version 1.1
+- Added additional characters, including all Latin Extended Characters, Ellipsis and Bullet, and Egyptological alef, ain, and yod
+- Updated English characters slightly
+- Reduced line spacing (leading) significantly.
+- Add OpenType instructions for correct Hebrew rendering in a variety of apps.
+
+10 June 2016 (Kevin Gyllenberg) Accordance Font Family version 1.02
+- increased size of single and double quotes by 20%.
+
+22 May 2016 (Kevin Gyllenberg) Accordance Font Family version 1.01
+- tweaked the arabic ascenders and descenders to slightly improve the line spacing.
+- changed glyphs with diacritics to composite ligatures to reduce font file size.
+
+12 March 2015 (Kevin Gyllenberg) Accordance Font Family version 1.00
+- Initial release
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), email (E), web-address
+(if you have one) (W) and description (D). This list is in alphabetical order.
+
+N: Joel Brown
+E: joel@accordancebible.com
+W: https://accordancebible.com
+D: Project Coordinator
+
+OakTree Software, Inc. has been dedicated to the development of state of the art software
+since 1989. The company has focused on areas of special interest, particularly the study
+of the Biblical texts.

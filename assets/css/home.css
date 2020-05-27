@@ -333,12 +333,12 @@ label:hover {
 	content: "-------";
 }
 
-#meu:checked ~ .plan-details .details::before {
+#meu:checked ~ .meu-details .details::before {
 	content: "Menu.";
 	opacity: 1;
 }
 
-#meu:checked ~ .plan-details .listed {
+#meu:checked ~ .meu-details .listed {
 	display: block;
 }
 

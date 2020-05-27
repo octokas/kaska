@@ -122,10 +122,11 @@ div.crop-line {
 	width: 100%;
 	max-width: 2px;
 	min-height: 88px;
-	position: absolute;
-	/* bottom: -88px;
+	/* position: absolute;
+	bottom: -88px;
 	left: 58px; */ /*codepen values*/
-	bottom: 8px;
+	position: fixed;
+	bottom: 148px;
 	left: 60px;
 }
 
@@ -378,7 +379,7 @@ label:hover {
 
 #payroll:checked {
 	background-color: transparent;
-	bckground: none !important;
+	background: none !important;
 	border: none !important;
 	box-shadow: none !important;
 	color: transparent;
@@ -388,4 +389,66 @@ label:hover {
 	-o-appearance: none !important;
 	outline: none !important;
 	content: none !important;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1300px) {
+	div.second-panel {
+		left: 20px;
+		top: 800px;
+		padding-top: 4px;
+	}
+
+	#photo-side {
+		display: none;
+	}
+
+	img.crosshairs#far-right {
+		top: -590px;
+	}
+
+	div.crop-line#mobile {
+		background: black;
+		width: 88px;
+		height: 2px;
+		max-width: 88px;
+		min-height: 2px;
+		position: absolute;
+		top: 12px;
+		right: -6px;
+		left: unset;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	div.first-panel {
+		padding-left: 12px;
+	}
+
+	div.second-panel {
+		padding-left: 0px;
+	}
+
+	div.contains {
+		max-width: 590px;
+	}
+
+	div.horizontal-scroll {
+		overflow-y: hidden;
+	}
+
+	body {
+		padding-bottom: 10px;
+	}
+
+	img.splash {
+		max-width: 480px;
+	}
+
+	img.crosshairs#far-right {
+		left: 578px;
+	}
+}
+
+@media screen and (max-width: 480px) {
 }

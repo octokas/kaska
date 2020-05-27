@@ -333,16 +333,16 @@ label:hover {
 	content: "-------";
 }
 
-#payroll:checked ~ .plan-details .details::before {
+#meu:checked ~ .plan-details .details::before {
 	content: "Menu.";
 	opacity: 1;
 }
 
-#payroll:checked ~ .plan-details .listed {
+#meu:checked ~ .plan-details .listed {
 	display: block;
 }
 
-#payroll {
+#meu {
 	-webkit-appearance: none;
 	background-color: transparent;
 	width: 100%;
@@ -366,8 +366,8 @@ label:hover {
 	content: none !important;
 }
 
-#payroll:active,
-#payroll:checked:active {
+#meu:active,
+#meu:checked:active {
 	box-shadow: none;
 	cursor: pointer;
 	-moz-appearance: none !important;
@@ -377,7 +377,7 @@ label:hover {
 	content: none !important;
 }
 
-#payroll:checked {
+#meu:checked {
 	background-color: transparent;
 	background: none !important;
 	border: none !important;
@@ -389,6 +389,14 @@ label:hover {
 	-o-appearance: none !important;
 	outline: none !important;
 	content: none !important;
+}
+
+span.disclaimer {
+	color: #222222;
+	font-style: italic;
+	opacity: 0.7;
+	position: absolute;
+	bottom: 100px;
 }
 
 /* Media Queries */
@@ -417,6 +425,10 @@ label:hover {
 		top: 12px;
 		right: -6px;
 		left: unset;
+	}
+
+	span.disclaimer {
+		display: none !important;
 	}
 }
 
@@ -448,9 +460,10 @@ label:hover {
 	img.crosshairs#far-right {
 		left: 578px;
 	}
+
 }
 
-@media screen and (max-width: 639px) {
+@media screen and (min-width: 479) and (max-width: 639px) {
 	div.first-panel {
 		padding-left: 12px;
 	}
@@ -507,12 +520,4 @@ label:hover {
 		bottom: 268px;
 		left: 50px;
 	}
-}
-
-span.disclaimer {
-	color: #222222;
-	font-style: italic;
-	opacity: 0.7;
-	position: absolute;
-	bottom: 100px;
 }

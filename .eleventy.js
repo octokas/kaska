@@ -62,7 +62,6 @@ module.exports = function(eleventyConfig) {
   // tracking an event via mixpanel with optional properties
   mixpanel.track('Menu click', {
       distinct_id: 'menu-click-yes',
-      'clicked': 'yes',
   });
 
   // Browsersync Overrides

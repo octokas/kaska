@@ -399,6 +399,24 @@ span.disclaimer {
 	bottom: 100px;
 }
 
+div#mobile.crop-line {
+	display: none;
+}
+
+div#bottom-left.crop-line {
+	position: absolute;
+	bottom: -118px;
+}
+
+div.horizontal-scroll::-webkit-scrollbar {
+	display: none;
+}
+
+
+div.horizontal-scroll {
+	-ms-overflow-style: none;
+}
+
 /* Media Queries */
 @media screen and (max-width: 1000px) {
 	div.second-panel {
@@ -527,3 +545,7 @@ span.disclaimer {
 		left: 50px;
 	}
 } */
+
+::-webkit-scrollbar {
+    display: none;
+}

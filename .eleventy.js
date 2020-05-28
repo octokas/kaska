@@ -5,6 +5,8 @@ const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
+const Mixpanel = require('mixpanel');
+const mixpanel = Mixpanel.init('b3fd640b6452383b8937bd60c95ee017');
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
@@ -56,6 +58,12 @@ module.exports = function(eleventyConfig) {
     permalinkSymbol: "#"
   });
   eleventyConfig.setLibrary("md", markdownLibrary);
+
+  // tracking an event via mixpanel with optional properties
+  mixpanel.track('Menu click', {
+      distinct_id: 'menu-click-yes',
+      'clicked': 'yes',
+  });
 
   // Browsersync Overrides
   eleventyConfig.setBrowserSyncConfig({

@@ -236,7 +236,7 @@ div.crop-line#bottom-right {
 	min-height: 2px;
 	position: absolute;
 	top: 768px;
-	left: 558px;
+	left: 518px;
 }
 
 img.crosshairs#far-right {
@@ -419,11 +419,11 @@ div.horizontal-scroll {
 
 /* Media Queries */
 @media screen and (max-width: 1000px) {
-	div.second-panel {
+	/* div.second-panel {
 		left: 20px;
 		top: 800px;
 		padding-top: 4px;
-	}
+	} */
 
 	#photo-side {
 		display: none;
